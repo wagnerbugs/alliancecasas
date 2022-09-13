@@ -4,12 +4,8 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\SiteController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::controller(SiteController::class)->group(function () {
-    //Route::get('/', 'index')->name('site.index');
+    Route::get('/', 'index')->name('site.index');
     Route::get('/sobre', 'sobre')->name('site.sobre');
     Route::get('/obras', 'obras')->name('site.obras');
     Route::get('/duvidas', 'duvidas')->name('site.duvidas');
