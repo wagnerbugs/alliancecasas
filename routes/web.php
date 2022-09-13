@@ -6,7 +6,7 @@ use App\Http\Controllers\SiteController;
 
 Route::controller(SiteController::class)->group(function () {
     Route::get('/', 'index')->name('site.index');
-    Route::get('/home', 'home')->name('site.home'); //index
+    Route::get('/homeindex', 'home')->name('site.home'); //index
     Route::get('/sobre', 'sobre')->name('site.sobre');
     Route::get('/obras', 'obras')->name('site.obras');
     Route::get('/duvidas', 'duvidas')->name('site.duvidas');
