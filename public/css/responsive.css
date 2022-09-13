@@ -1,0 +1,631 @@
+/*===================================================
+\ Template Name	: Classic Realtors | HTML5 & SCSS
+\ Author			: JHK Infotech PVT. LTD.
+\ Author URL		: https://www.jhkinfotech.com
+\ Author Support	: support@jhkinfotech.com
+===================================================*/
+/* Scss Document */
+@media only screen and (max-width: 1500px) { /*=================================================== Home Page CSS ===================================================*/
+  .owl-carousel-home .owl-item.active .custom-carousel-caption-3 { right: 0; }
+  .custom-carousel-caption-title-1 { font-size: 65px !important; }
+  .navigation-holder .navigation-holder-inner .container { padding-top: 140px; padding-bottom: 50px; height: calc(100vh - 20px); }
+  .properties-slider-1-cntnt-holder { padding: 0px 45px 0px 25px; }
+  .properties-slider-1-cntnt-holder .properties-slider-1-cntnt-holder-inner { padding: 30px 35px 40px 30px; } }
+@media only screen and (max-width: 1300px) { /*=================================================== Home Page CSS ===================================================*/
+  .top-content-section-col p { margin-top: 20px; max-width: 100%; }
+  .top-content-section-col .top-content-section-col-inner { padding: 0px 15px; }
+  .top-content-col-number { margin-bottom: 25px; }
+  .top-featured-home-slider-pagination-section { right: unset; left: -35px; }
+  /*=================================================== faq Page CSS ===================================================*/
+  .faq-slider-1 .faq-slider-1-item .faq-slider-1-img-holder { height: 55px; }
+  .faq-slider-1 .faq-slider-1-item .faq-slider-1-cntnt-holder > h3 { font-size: 23px !important; }
+  .faq-slider-1 .faq-slider-1-item .faq-slider-1-cntnt-holder > p { font-size: 16px !important; }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link .faq-card-link-content { font-size: 25px !important; }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link .faq-card-link-img { width: 16px; }
+  .faq-slider-tab-accordion .card .card-body > p { font-size: 18px !important; }
+  .more-contact-section h3 { font-size: 35px !important; }
+  .more-contact-section p { font-size: 29px !important; }
+  .more-contact-section .faq-cntct-bx .faq-cntct-bx-icon { font-size: 40px !important; margin-bottom: 25px !important; }
+  .more-contact-section .faq-cntct-bx .faq-cntct-bx-link { font-size: 25px !important; }
+  .more-contact-section .faq-cntct-bx p { font-size: 22px !important; }
+  .more-contact-section .more-contact-section-col-left > img { max-width: 610px; margin-left: -15px !important; } }
+@media only screen and (max-width: 1199px) { /*=================================================== Home Page CSS ===================================================*/
+  .owl-carousel-home .owl-item.active .custom-carousel-caption-3 { bottom: 25%; }
+  .awards-images-holder { padding: 30px 0px 30px 0px; }
+  .subtitle-2, .subtitle-1 { margin-bottom: 5px; font-size: 19px; }
+  .title-2 { margin-bottom: 10px; font-size: 23px; }
+  .my-achieves-section { padding-top: 10px !important; }
+  .my-achieves-section .container { padding-bottom: 5px !important; }
+  .award-holder-col { min-height: auto; }
+  .award-holder-col .award-holder-col-inner { padding: 25px !important; }
+  .award-holder-col .award-holder-col-inner img { max-width: 100%; max-height: 100%; }
+  .title-1 { font-size: 45px; }
+  .title-1 span { font-size: 21px; }
+  .testimonials-section.section { padding: 185px 0px 80px 0px; }
+  .creative-testimonials-holder1-col { max-height: 370px; }
+  .creative-testimonials-1-caption-holder { padding-left: 15px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
+  .creative-testimonials-1-caption-holder-pb-extra { padding-bottom: 155px !important; padding-left: 15px !important; padding-top: 15px !important; padding-right: 15px !important; }
+  .btn-play-green-1 { width: 45px; height: 45px; }
+  .header-logo-holder img { max-width: 120px; }
+  .properties-slider-1-cntnt-holder { padding: 0px 45px 0px 15px; }
+  .properties-slider-1-cntnt-holder .properties-slider-1-cntnt-holder-inner { padding: 20px 15px 30px 20px; }
+  .top-content-section { padding: 50px 0px; }
+  .title-1-holder { padding-bottom: 15px !important; margin-bottom: 15px !important; }
+  .top-content-section-col:nth-child(2) { padding-top: 50px; }
+  .top-content-section-col:nth-child(4n) { padding-top: 70px; }
+  .my-achieves-section-col-right { padding-left: 30px !important; }
+  .custom-carousel-caption-2 .prop-holder-link { flex-basis: 30px; flex-grow: 0; }
+  .custom-carousel-caption-2 .prop-holder-content-inner { flex-basis: 0; flex-grow: 1; }
+  /*=================================================== about us Page CSS ===================================================*/
+  .network-section { background: #000 url(../images/netwrork-section-back-1.webp) repeat-y 920px 0%/auto; }
+  .network-section .network-section-col-tabs a { padding: 10px 15px; font-size: 17px; }
+  .network-section-col-tabs { margin-bottom: 15px !important; }
+  .network-content-col > h3 { font-size: 27px !important; }
+  .network-content-col > img:not(.abs-map-pin) { max-width: 150px; margin-bottom: 15px !important; }
+  .about-contact-form-group { padding: 20px 25px; }
+  .about-contact-form-group-input-holder { padding-left: 5px; }
+  .customchecknputGroup label { font-size: 14px; padding-left: 30px; }
+  .customchecknputGroup label::after { width: 20px; background-position: -1px 0px; background-size: 25px; height: 20px; }
+  .quickstats-section-1 { background: url(../images/inner-page-banner-2.webp) no-repeat fixed center center/1380px; }
+  .title-5 { font-size: 40px !important; }
+  .contact-section-innercol-right > h4 { font-size: 30px !important; }
+  .contact-section-innercol-right > p { font-size: 20px !important; }
+  .contact-section-innercol-icon-holder { height: 80px !important; width: 80px !important; }
+  .contact-section-innercol-icon-holder > img, .contact-section-innercol-icon-holder > i { width: 90%; font-size: 35px !important; text-align: center; }
+  .contact-section-innercol-right { padding-left: 0px !important; }
+  .quickstats-section-col > h4 { font-size: 50px !important; }
+  .quickstats-section-col > img { max-width: 60px !important; margin-bottom: 20px !important; }
+  .quickstats-section-col > p { font-size: 18px !important; }
+  .stories-slider-item-inner .stories-slider-item-col-left { flex: 0 0 calc(188px + 30px); max-width: calc(188px + 30px); }
+  .stories-slider-item-inner .stories-slider-item-dp-holder { width: 188px; height: 188px; }
+  .stories-slider-item-inner .stories-content-holder::after, .stories-slider-item-inner .stories-content-holder::before { font-size: 49px; }
+  .stories-content-holder > h4 { font-size: 37px !important; }
+  .stories-content-holder > p { font-size: 21px !important; }
+  /*=================================================== our team Page CSS ===================================================*/
+  .our-approach-section-col-left > h1 { font-size: 55px !important; margin-bottom: 15px !important; }
+  .team-intro-section-col > .subtitle-3-black { margin-bottom: 25px !important; }
+  .team-intro-section-col > h1 { font-size: 45px !important; margin-bottom: 25px !important; }
+  .team-intro-section-col > p { margin-top: 25px !important; }
+  /*=================================================== single blog Page CSS ===================================================*/
+  .blogs-item-comments-counter-ele { margin-right: 10px !important; }
+  .blogs-item-comments-counter-ele > * { font-size: 20px !important; }
+  .blog-item-title-2 { font-size: 31px !important; }
+  .blog-item-cntnt-holder-body > p { font-size: 21px !important; margin: 15px 0px !important; }
+  .blog-item-content-p { font-size: 20px !important; }
+  .first-letter-big::first-letter { font-size: 124px; line-height: 94px; padding-right: 10px; }
+  .blog-content-ul-1 li { padding-left: 25px; }
+  .blog-content-ul-1 li::before { font-size: 14px; top: 3px; }
+  .blog-detail-testimony-item { padding-left: 35px; }
+  .blog-detail-testimony-p { font-size: 21px !important; line-height: 1; }
+  .blog-detail-testimony-sender { margin-top: 25px !important; font-size: 19px !important; }
+  .blog-detail-comments-footer-top > p { font-size: 20px !important; margin-top: 5px; }
+  /*=================================================== faq Page CSS ===================================================*/
+  .we-here-section-col-right p { font-size: 17px !important; }
+  .faq-first-sec-cntnt-row p { font-size: 27px !important; }
+  .faq-slider-tabs-section h3 { font-size: 35px !important; }
+  .faq-slider-tabs-section p { font-size: 25px !important; }
+  .subscriber-section-col-left > img { width: 130px; margin-top: 35px; margin-left: 38px; }
+  .contact-section-innercol-cntnt-holder > p { font-size: 26px !important; }
+  .contact-section-innercol-cntnt-holder > h3 { font-size: 30px !important; }
+  /*=================================================== Contact Page CSS ===================================================*/
+  .contact-us-map-holder { height: 70vh; }
+  .contact-us-map-caption-holder .contact-us-map-caption-holder-inner { padding: 35px; align-items: center; }
+  .contact-us-map-caption-holder .contact-us-map-caption-icon-holder { width: 70px; flex-basis: 70px; }
+  .contact-us-map-caption-holder .contact-us-map-caption-icon-holder > i { font-size: 50px !important; }
+  .contact-us-map-caption-holder .contact-us-map-caption-cntnt-holder > p { font-size: 19px !important; }
+  .quickstats-section-1 { padding: 60px 0px; }
+  .quickstats-section-col > h4 { font-size: 30px !important; }
+  .quickstats-section-col > p { font-size: 16px !important; } }
+@media only screen and (max-width: 1024px) { /*=================================================== Home Page CSS ===================================================*/
+  .custom-carousel-caption-title-1 { font-size: 50px !important; }
+  /*=================================================== about us Page CSS ===================================================*/
+  .our-team-slider-item-cntnt-holder { margin-top: -70px; }
+  .our-team-slider-item-cntnt-holder .our-team-slider-item-cntnt-holder-inner { padding: 25px 25px 25px 25px; }
+  .our-team-slider-item-cntnt-holder .our-team-slider-item-cntnt-holder-inner > h5 { font-size: 24px !important; }
+  .our-team-slider-item-cntnt-holder .our-team-slider-item-cntnt-holder-inner > p { font-size: 17px !important; }
+  .our-team-slider-item-inner:hover .our-team-slider-item-cntnt-holder { padding: 0px 15px 0px 15px; }
+  .our-team-slider-item-inner:hover .our-team-slider-item-cntnt-holder-inner { transform: translateY(-15px); }
+  .support-section-col { display: table !important; }
+  .support-section-col .support-sec-img-col { max-width: 100px; }
+  .support-section-col .support-sec-img-col > img { width: 100%; }
+  .support-section-col .support-sec-cntnt-col { padding-left: 0px !important; margin-top: 25px; }
+  .support-section-col .support-sec-cntnt-col h3 { font-size: 30px !important; }
+  .support-section-col .support-sec-cntnt-col p { font-size: 18px !important; }
+  /*=================================================== prop listing Page CSS ===================================================*/
+  .prop-list-top-featured-home-section { margin-bottom: 380px; }
+  .properties-filter-section-container { padding: 35px !important; }
+  .properties-filter-control { height: 45px; }
+  .properties-form-group-has-select::before { top: 8px; } }
+@media only screen and (max-width: 991px) { /*=================================================== Home Page CSS ===================================================*/
+  .nav-section-col-right .nav-section-col-inner { padding: 25px !important; }
+  .header-contact-link { font-size: 22px !important; }
+  .footer-social-holder { margin-top: 25px !important; }
+  .nav-section-link { font-size: 30px; }
+  .top-content-col-number { font-size: 50px; }
+  .top-content-col-title { font-size: 15px; }
+  .top-content-section-col { padding: 0px; }
+  .title-2 { font-size: 21px; }
+  .title-4 { font-size: 36px; margin-bottom: 25px !important; }
+  .awards-info-holder-col > p, .awards-info-holder-col > p > span { font-size: 19px !important; }
+  .award-pill { padding: 7px 25px 8px 25px !important; font-size: 21px !important; }
+  .creative-testimonials-holder1-col-inner p > span { font-size: 30px !important; }
+  .subtitle-2, .subtitle-1, .creative-testimonials-holder1-col-inner p { font-size: 17px !important; }
+  .creative-testimonials-1-caption-holder { max-width: 245px; }
+  .top-featured-home-slider-caption-owl { max-width: calc(100% - 30px); top: 100%; z-index: 0; }
+  .top-featured-home-slider-img-owl .owl-nav { bottom: calc(-55px / 2); }
+  .top-featured-home-slider-img-owl .owl-nav [class*="owl-"] { width: 55px; height: 55px; }
+  .top-featured-home-slider-img-owl .owl-nav [class*="owl-"] img { max-width: 12px; }
+  .properties-slider-section { padding-top: 360px; }
+  .top-footer-contact-info-holder * { font-size: 20px !important; }
+  .top-footer-contact-icon-holder { width: 55px; height: 55px; }
+  .top-footer-contacts-holder-col { padding-top: 15px !important; padding-bottom: 15px !important; }
+  .logos-slider-section { margin-bottom: 130px !important; margin-top: 15px !important; }
+  .footer-logo-sub-title { font-size: 25px !important; }
+  .footer-contact-number-1 { font-size: 33px !important; }
+  .footer-links-ul { margin-top: 15px !important; }
+  /*=================================================== about us Page CSS ===================================================*/
+  .lets-talk-holder { padding: 25px 5px !important; }
+  .about-us-prop-type-slider-1-item .about-us-prop-type-slider-1-inner { padding: 15px 15px 15px 30px; }
+  .contact-section-innercol-icon-holder { height: 50px !important; width: 50px !important; padding: 10px; margin-left: auto !important; margin-right: auto !important; margin-bottom: 25px !important; }
+  .contact-section-innercol-icon-holder > i { font-size: 25px !important; }
+  .contact-section-innercol-right > h4 { font-size: 26px !important; }
+  .contact-section-innercol-right > p { font-size: 17px !important; }
+  .quickstats-section-col > h4 { font-size: 37px !important; }
+  .quickstats-section-col > p { font-size: 14px !important; }
+  .quickstats-section-1 { padding: 130px 0px; }
+  .stories-slider-item-inner { padding: 20px; }
+  .stories-slider-item-inner .stories-slider-item-col-left { flex: 0 0 calc(100px + 30px); max-width: calc(100px + 30px); }
+  .stories-slider-item-inner .stories-slider-item-dp-holder { width: 100px; height: 100px; }
+  .stories-slider-item-inner .stories-slider-quote-1 { right: -5px; bottom: -5px; font-size: 35px !important; }
+  .stories-profile-title-1 { font-size: 16px !important; }
+  .network-section { background: #000 url(../images/netwrork-section-back-1.webp) repeat-y 450px 0%/auto; }
+  .about-page .contact-section-innercol-icon-holder { margin-left: 0px !important; margin-bottom: 5px !important; }
+  /*=================================================== single property Page CSS ===================================================*/
+  .single-prop-extra-pics-slider-holder .single-prop-extra-pics-header-col { padding: 40px 0px !important; }
+  .prop-dtls-pg-agnt-dtls-img-holder { flex-basis: 68px; max-width: 68px; }
+  .gallery-top { height: 450px; }
+  .single-prop-swiper-nav-holder { padding: 25px 40px; }
+  .social-link-1 { width: 64px; height: 64px; font-size: 24px !important; }
+  .our-approach-section-col-left > h1 { font-size: 45px !important; }
+  .our-approach-section > .container > .row { align-items: flex-start !important; }
+  .team-intro-section-img-holder img { width: 100%; }
+  .team-intro-section-socials-holder { margin-top: -60px; padding-top: 20px; padding-bottom: 20px; }
+  .team-intro-section-socials-holder > p { margin-bottom: 5px !important; }
+  .team-intro-section-col > h1 { font-size: 35px !important; }
+  .team-intro-section-col > p { font-size: 20px !important; }
+  .our-approach-section::before { display: none; }
+  .our-approach-section::after { width: calc(100% - 15px); }
+  .our-approach-section-col-right { position: relative; margin-top: 25px; }
+  .our-approach-section-col-right::before { content: ""; z-index: 0; position: absolute; height: calc(100% + 60px); width: 100%; background: #80c33e !important; top: -30px; right: -25px; }
+  .our-approach-section-col-right > img { position: relative; z-index: 1; }
+  .joinourteam-section-col-icon-holder { width: 59px; height: 59px; flex-basis: 59px; }
+  /*=================================================== Blogs Page CSS ===================================================*/
+  .blogs-item-header-letter { width: 55px !important; height: 55px !important; font-size: 37px !important; }
+  .blogs-section { background: url(../images/top-section-bg-img.webp) no-repeat 0px 80px/100%; }
+  .blogs-item-header-2 > h3 { font-size: 36px !important; }
+  .subscribe-btn-1, .blog-item-header-2-subtitle-holder > p { font-size: 17px !important; }
+  .blog-item-date-holder { height: 120px; margin-top: -20px; width: 140px; }
+  .blog-item-date-holder .blog-item-date-ele-1 { width: 105px; flex-basis: 105px; font-size: 40px !important; }
+  .blog-item-date-holder .blog-item-date-ele-2 { font-size: 18px !important; }
+  .blog-item-share-holder { padding: 45px 20px; }
+  .blog-item-number > p { font-size: 35px !important; }
+  .blog-item-type { width: 65px; height: 65px; }
+  .blog-item-type, .blog-item-cntnt-heading { font-size: 22px !important; }
+  .blog-item-cntnt-holder-body > p, .blogs-item-comments-counter > * { font-size: 20px !important; }
+  .blog-read-more-btn { padding: 10px 35px !important; font-size: 19px !important; }
+  .blog-item-img-holder { height: 390px; }
+  .pagi-2-link-arrows, .pagi-2-link { width: 60px; height: 60px; font-size: 25px !important; padding: 0px 13px; }
+  .subscriber-section .subscriber-section-col-right { padding: 15px 15px 15px 35px !important; flex-basis: 0; max-width: none; flex-grow: 1; }
+  .subscriber-section .subscriber-section-col-left { display: flex; align-items: flex-end; justify-content: center; flex-basis: 20%; max-width: 20%; flex-grow: 0; }
+  .subscriber-section .subscriber-section-col-left > img { margin-top: 0; width: 90px; }
+  .top-tradning-item-title-1, .subscribe-newsletter-title-1 { font-size: 23px !important; }
+  .subscribe-newsletter-title-1 img { width: 25px; margin-right: 0px !important; }
+  .subscribe-btn-1 { padding: 15px 25px !important; width: 100%; }
+  .subscriber-section .subscriber-btn-holder { flex-basis: 175px; max-width: 175px; flex-grow: 0; }
+  .subscriber-section .subscriber-input { font-size: 21px; }
+  .subscriber-section .subscribe-newsletter-btn-1 { padding: 15px 25px !important; width: 100%; }
+  .subscriber-form-holder { padding-left: 0px !important; }
+  .top-tranding-cntnt-holder { bottom: 0px; padding: 15px 25px !important; }
+  /*=================================================== single blog Page CSS ===================================================*/
+  .blog-detail-page .blog-item-cntnt-holder { margin-top: 30px; }
+  .blogs-item-comments-counter-ele > * { font-size: 16px !important; }
+  .blog-item-content-p { font-size: 18px !important; }
+  .first-letter-big::first-letter { font-size: 104px; }
+  .blog-details-subtitle-1 { font-size: 30px !important; }
+  .share-holder-1-icon { width: 45px; margin: 0px 5px; }
+  .pagi-3-link-arrows, .pagi-1-link-arrows { padding: 8px 10px; }
+  .pagi-3-link-arrows > img, .pagi-1-link-arrows > img { width: 30px; }
+  .pagi-3-btn-inner > p { margin-left: 15px !important; font-size: 22px !important; }
+  .blog-detail-comment-img-holder { width: 105px; height: 105px; flex-basis: 105px; }
+  .blog-detail-comment-cntnt-holder { padding-left: 15px !important; }
+  .blog-detail-comment-cntnt-header-col-left > h4 { font-size: 25px !important; }
+  .blog-comment-col > label, .blog-detail-comment-cntnt-header-col-left > p, .blog-detail-comment-cntnt-body > p { font-size: 20px !important; }
+  .blog-detail-comment-cntnt-header-col-right > a { font-size: 17px !important; }
+  .blog-comment-form-control { height: 60px; }
+  /*=================================================== Contact Page CSS ===================================================*/
+  .quickstats-section-col > h4 { font-size: 27px !important; }
+  .quickstats-section-1 { padding: 80px 0px; }
+  .contact-us-page-contact-form-content-holder .btn { padding: 10px 20px !important; font-size: 18px !important; }
+  .customchecknputGroup label { font-size: 15px !important; }
+  .contact-us-page-contact-form-title-holder > h4, .subscriber-section-col-right > h5 { font-size: 24px !important; }
+  .contact-us-page-contact-form-title-holder > p { font-size: 15px !important; } }
+@media only screen and (max-width: 850px) { /*=================================================== Home Page CSS ===================================================*/
+  .navigation-holder::before, .navigation-holder::after { border-width: 3px; }
+  .navigation-holder .navigation-holder-inner { width: calc(100% - 6px); height: calc(100% - 6px); top: 3px; left: 3px; }
+  .navigation-holder .navigation-holder-inner .container { padding-top: 55px; padding-bottom: 0; height: calc(100vh - 6px); }
+  .navigation-holder .navigation-holder-inner .container .nav-section-col { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; }
+  .header-logo-holder img { max-width: 80px; }
+  .header-nav-link { padding: 0px 10px; font-size: 15px; }
+  .nav-section-link { font-size: 20px; }
+  .nav-section-link::before { top: 25px; }
+  .nav-section-col-left { height: auto !important; }
+  .nav-section-col-right { padding-bottom: 25px; }
+  .nav-section-col-right .nav-section-col-inner { clip-path: unset; padding: 15px !important; }
+  .header-contact-link { font-size: 18px !important; }
+  .header-contact-link img { max-width: 100%; }
+  .prop-holder-pic { flex-basis: 80px; width: 80px; }
+  .custom-carousel-caption-2 { height: 80px; }
+  .prop-holder-content-holder1 { padding: 15px !important; }
+  .custom-carousel-caption-2 .prop-holder-content-inner { min-width: auto; }
+  .custom-carousel-caption-2 .prop-holder-link { flex-basis: 25px; flex-grow: 0; }
+  .prop-holder-title-1 { font-size: 19px; }
+  .prop-holder-title-2, p.prop-holder-title-2 { font-size: 12px !important; }
+  .owl-carousel-home .owl-item .custom-carousel-caption-3 { right: 10px !important; }
+  .owl-carousel-home .owl-nav { bottom: 80px; }
+  .owl-carousel-home .owl-nav [class*="owl-"] { width: 40px; height: 40px; }
+  .navigation-holder-row { overflow-y: auto !important; } }
+@media only screen and (max-width: 767px) { /*=================================================== Home Page CSS ===================================================*/
+  .top-content-section-col { padding: 15px 0px !important; }
+  .top-content-section.section { background-size: auto; background-repeat: repeat-y; background-position: center center; }
+  .title-1 { font-size: 35px; }
+  .title-1 span { font-size: 18px; }
+  .top-content-section-col .devider-square-1 { display: inline-block; }
+  .top-content-section-col p { display: inline; }
+  .my-achieves-section-col-right { padding-left: 15px !important; }
+  .awards-content { width: 50%; display: inline-block; float: left; }
+  .awards-info-holder-col { padding-right: 15px !important; }
+  .creative-testimonials-1-caption-holder-pb-extra { padding-bottom: 15px !important; }
+  .creative-testimonials-holder1-col { margin-top: 0px !important; }
+  .creative-testimonials-holder1-col:first-child .creative-testimonials-1-caption-holder-pb-extra { background: #fff; }
+  .top-featured-home-slider-img-owl .item { height: 320px; }
+  .top-featured-home-slider-pagination-section .top-featured-home-slider-pagination-ul { margin-top: 15px; padding: 15px 15px; }
+  .top-featured-home-slider-pagination-section .top-featured-home-slider-pagination-ul:before, .top-featured-home-slider-pagination-section .top-featured-home-slider-pagination-ul:after { height: 15px; }
+  .top-featured-home-slider-pagination-section .top-featured-home-slider-pagination-ul:before { top: 0; }
+  .top-featured-home-slider-pagination-section .top-featured-home-slider-pagination-ul:after { top: unset; bottom: 0; }
+  .top-featured-home-slider-pagination-section .top-featured-home-slider-pagination-ul .top-featured-home-slider-pagination-number { padding: 12px 0px; }
+  .top-featured-home-slider-amen-media img { width: 20px !important; }
+  .top-featured-home-slider-amen-media .media-body > p { padding-left: 5px !important; font-size: 16px !important; }
+  .top-featured-home-slider-caption-holder-inner { padding: 30px 15px; }
+  .footer-row-1-col { margin-bottom: 25px; }
+  .footer-row-3 { padding: 25px 0px !important; text-align: center; }
+  .custom-carousel-caption-1 { margin-bottom: 25vh; }
+  /*=================================================== About Page CSS ===================================================*/
+  .custom-carousel-caption-title-1 { font-size: 45px !important; margin-bottom: 0px !important; }
+  .custom-carousel-caption-subtitle { margin-bottom: 5px !important; }
+  .breadcrumb { margin-bottom: 0px; }
+  .about-section-col-has-img-inner { max-height: 450px; }
+  .about-section-col-has-img-inner img { width: 100%; }
+  .title-5 { font-size: 30px !important; }
+  .divider-green-2 { margin-top: 5px !important; }
+  .contact-section-innercol { padding: 0px; margin-bottom: 15px; }
+  .quickstats-section-col { padding-top: 10px; padding-bottom: 10px; text-align: center; }
+  .quickstats-section-1 { padding: 60px 0px; }
+  .stories-slider-item-inner .stories-slider-item-col-left { flex: 0 0 100%; max-width: 100%; display: flex; margin-bottom: 25px; }
+  .stories-slider-item-inner .stories-slider-item-col-left .stories-slider-dp-holder-parent { flex-basis: 100px; max-width: 100px; flex-grow: 0; }
+  .stories-slider-item-inner .stories-slider-item-col-left .stories-slider-dp-content-holder { margin-left: 0px !important; margin-bottom: 25px !important; padding-left: 25px; }
+  .stories-slider-item-inner .stories-slider-item-col-left .stories-slider-dp-content-holder .media > img { width: 15px !important; height: auto; }
+  .stories-slider-item-inner .stories-slider-item-col-left .stories-slider-dp-content-holder .media .media-body p { font-size: 17px !important; }
+  .stories-slider-item-inner .stories-content-holder::after, .stories-slider-item-inner .stories-content-holder::before { font-size: 39px; }
+  .stories-slider-item-inner .stories-content-holder::before { margin-left: -20px; }
+  .stories-slider-item-inner .stories-content-holder::after { margin-right: -20px; }
+  .stories-slider-item-inner .stories-content-holder { padding: 0px 50px 30px 50px; }
+  .stories-content-holder > h4 { margin-bottom: 15px !important; font-size: 27px !important; }
+  .stories-content-holder > p { font-size: 18px !important; }
+  /*.network-section .network-section-col-tabs-content .tab-pane{position:relative;}*/
+  .network-section { background: #000 url(../images/netwrork-section-back-1.webp) repeat-x 0px 413px/auto; }
+  .network-section .network-section-col { padding-bottom: 20px; }
+  .network-section .network-section-content-col { padding-top: 40px; }
+  .network-section .network-section-col-tabs-content { height: 350px; }
+  .network-section .network-section-col-tabs-content .tab-pane { width: calc(100% - 30px); }
+  .network-section .network-section-col-tabs-content .tab-pane::after { display: none; }
+  .network-section .network-section-col-tabs { justify-content: center !important; }
+  .network-section .network-section-map-img-holder { height: 210px; text-align: center; margin-top: -20px; }
+  .network-section .network-section-map-img-holder img { height: 100%; }
+  .about-section-col-right { margin-top: 25px; }
+  /*=================================================== prop listing Page CSS ===================================================*/
+  .prop-list-top-featured-home-section { margin-bottom: 380px; }
+  .properties-filter-section-container { padding: 35px !important; }
+  .pagi-3-link-arrows, .pagi-1-link-arrows { margin: 0px 10px !important; }
+  .top-featured-home-slider-caption-feat-col .media > img { height: 22px !important; }
+  .top-featured-home-slider-caption-feat-col .media .media-body > p { padding-left: 5px !important; font-size: 17px !important; }
+  /*=================================================== single property Page CSS ===================================================*/
+  .prop-dtls-pg-agnt-dtls-cntnt-holder-col > h2 { font-size: 22px !important; }
+  .prop-dtls-pg-agnt-dtls-cntnt-holder-col > p { font-size: 13px; }
+  .prop-dtls-pg-agnt-dtls-cntnt-holder-col > a, .prop-dtls-pg-agnt-dtls-cntnt-holder-col > a > i { font-size: 17px !important; }
+  .prop-dtls-pg-agnt-dtl-section-col-2 { margin: 25px 0px; }
+  .social-link-1 { width: 44px; height: 44px; font-size: 19px !important; }
+  .prop-details-first-row-col-left > h1 { font-size: 35px !important; }
+  .prop-details-holder p { font-size: 20px !important; line-height: 1.7 !important; }
+  .prop-amen-cells-holder { padding: 0px; }
+  .prop-amen-cells-holder .prop-amen-cell { padding: 15px; }
+  .prop-amen-cells-holder .prop-amen-cell .prop-amen-cell-text { padding-left: 15px; }
+  /*=================================================== single property Page CSS ===================================================*/
+  .our-approach-section-col-left > h1 { font-size: 35px !important; }
+  .team-intro-section-row { margin-top: 10px !important; margin-bottom: 10px !important; padding: 25px 0px !important; }
+  .team-intro-section-cntnt-col { margin-top: 15px !important; margin-bottom: 10px !important; }
+  /*=================================================== our team Page CSS ===================================================*/
+  .joinourteam-section-col-text-holder > h3 { font-size: 25px !important; }
+  .joinourteam-section-col-text-holder > a { font-size: 16px !important; }
+  .joinourteam-section-col-right > a { padding: 7px 20px !important; font-size: 18px !important; }
+  .joinourteam-section-col-text-holder { display: flex; flex-wrap: wrap; align-items: center; align-content: center; }
+  /*=================================================== Blog Page CSS ===================================================*/
+  .pagi-2-link-arrows, .pagi-2-link { width: 50px; height: 50px; }
+  .subscriber-section .subscriber-section-col-right { padding: 15px 15px 15px 10px !important; }
+  .subscriber-section .subscribe-newsletter-btn-1 { padding: 15px 15px !important; font-size: 16px !important; }
+  .subscriber-section .subscriber-btn-holder { flex-basis: 145px; max-width: 145px; }
+  .top-tranding-posts-col { height: auto; }
+  .top-tranding-item-parent, .top-tranding-posts-col-left { height: 300px; padding-top: 15px !important; padding-bottom: 15px !important; }
+  .top-tranding-item-parent .top-tranding-img-holder, .top-tranding-posts-col-left .top-tranding-img-holder { height: 100%; }
+  /*=================================================== single Blog Page CSS ===================================================*/
+  .blog-item-cntnt-holder { padding: 15px; }
+  .blogs-item-comments-counter-ele > * { font-size: 13px !important; }
+  .blogs-item-comments-counter-ele > p { margin-left: 1px !important; }
+  .blog-details-subtitle-1, .blog-item-title-2 { font-size: 23px !important; }
+  .blog-detail-comment-cntnt-body > p, .share-holder-1 > p, .blog-item-cntnt-holder-body > p { font-size: 18px !important; }
+  .blog-detail-testimony-p::before { font-size: 36px; margin-right: 15px; top: -5px; }
+  .blog-detail-testimony-p { font-size: 19px !important; line-height: 1.3; }
+  .share-holder-1-icon { margin: 0px 1px; }
+  .share-holder-1-inner::before, .share-holder-1-inner::after { left: 10px; }
+  .share-holder-1-inner::before { width: 10px; height: 10px; }
+  .pagi-3-btn-inner > p { margin-left: 0px !important; font-size: 17px !important; }
+  .pagi-3-link-arrows-label-right { margin-right: 0px !important; }
+  .blog-detail-comments-header > p { font-size: 25px !important; }
+  .blog-comment-col > button, .blog-comment-col > a { padding: 10px 30px !important; font-size: 18px !important; }
+  /*=================================================== FAQ Page CSS ===================================================*/
+  .search-holder-1 { padding-left: 0px !important; padding-right: 0px !important; padding-bottom: 0px !important; }
+  .search-holder-1 .btn { padding: 17px 35px !important; width: 100%; font-size: 19px !important; line-height: 1; }
+  .we-here-section-col { padding: 15px 20px; flex-basis: 150px; max-width: 150px; }
+  .we-here-section-col > img { width: 50px; }
+  .we-here-section-col-right h3 { font-size: 21px !important; }
+  .search-holder-1-img { top: 23px; width: 20px; left: 15px; }
+  .search-holder-1-input { padding: 10px 35px 10px 50px !important; font-size: 20px !important; width: 100%; max-width: 100% !important; flex-basis: 100% !important; height: 55px; }
+  .faq-first-section { background: url(../images/our-team-top-section-img.webp) no-repeat bottom right/80%; }
+  .faq-first-sec-cntnt-row { padding: 90px 0px; }
+  .faq-slider-tabs-section h3, .more-contact-section h3 { font-size: 27px !important; }
+  .faq-slider-tabs-section p, .more-contact-section p { font-size: 22px !important; }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link, .faq-slider-tab-accordion .card .card-body { padding: 20px; }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link::after, .faq-slider-tab-accordion .card .card-body::after { width: calc(100% - 40px); }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link .faq-card-link-content, .faq-slider-tab-accordion .card .card-body .faq-card-link-content { font-size: 20px !important; }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link > p, .faq-slider-tab-accordion .card .card-body > p { font-size: 16px !important; }
+  .subscriber-section-col-left > img { width: 110px; margin-top: -120px; margin-left: 8px; }
+  .faq-subscriber-section { margin-top: 95px !important; }
+  .subscriber-btn-holder > .btn { padding: 15px 25px !important; line-height: 1; font-size: 20px !important; }
+  .subscriber-input, .subscriber-form-holder > form > p { font-size: 17px !important; }
+  .more-contact-section .more-contact-section-col-left > img { max-width: 250px; margin-left: 0px !important; margin-bottom: 55px; }
+  .more-contact-section .more-contact-section-col-left .faq-schedule-box { box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1); bottom: 35px; max-width: 360px; right: 15px; }
+  .nav-section-col, .nav-section-col-inner { height: auto !important; } }
+@media only screen and (max-width: 575px) { /*=================================================== Home Page CSS ===================================================*/
+  p, p[class] { font-size: 17px !important; line-height: 1.7; }
+  .footer-contact-link-1-img-holder { flex-basis: 15px; max-width: 15px; margin-right: 5px !important; padding-top: 2px; }
+  .custom-carousel-caption-title-1 { font-size: 35px !important; }
+  .top-content-section { padding: 30px 0px; }
+  .top-content-section .top-content-row { padding-left: 15px; }
+  .top-content-section .top-content-col-number, .top-content-section .top-content-col-title { margin-bottom: 15px; }
+  .top-content-section .top-content-section-col p { font-size: 16px; }
+  .title-1-holder { margin-bottom: 0px !important; }
+  .title-1 { font-size: 30px; }
+  .title-2 { font-size: 19px; }
+  .top-footer-contact-info-holder *, .subtitle-2, .subtitle-1, .creative-testimonials-holder1-col-inner p { font-size: 16px !important; }
+  .title-3 { font-size: 18px; }
+  .my-achieves-section::before { width: 95vw; }
+  .my-achieves-section > .container { padding-bottom: 7px !important; padding-top: 10px; }
+  .title-4 { font-size: 30px; }
+  .awards-all-holder-col-row { padding: 0px 7.5px; margin-top: 15px; }
+  .awards-all-holder-col-row .award-holder-col { padding-left: 7.5px; padding-right: 7.5px; margin: 7.5px 0px !important; }
+  .creative-testimonials-holder1-col { max-height: 270px; }
+  .top-featured-home-section { margin-top: 50px; }
+  .top-featured-home-slider-caption-title { font-size: 23px !important; }
+  .top-featured-home-slider-img-owl .item { height: 180px; }
+  .top-featured-home-slider-img-owl .owl-nav { bottom: calc(-35px / 2); }
+  .top-featured-home-slider-img-owl .owl-nav [class*="owl-"] { width: 35px; height: 35px; }
+  .top-featured-home-slider-img-owl .owl-nav [class*="owl-"] img { max-width: 7px; }
+  .top-featured-home-slider-amen-media { margin-bottom: 10px; }
+  .top-featured-home-slider-amen-media img { width: 17px !important; }
+  .top-featured-prop-content-p-1 { font-size: 17px !important; }
+  .top-featured-home-slider-section { background: transparent; }
+  .top-featured-home-slider-section .top-featured-home-slider-pagination-section { display: none; }
+  .top-featured-home-slider-caption-owl { max-width: 100%; top: unset; position: relative !important; }
+  .properties-slider-section { padding-top: 30px; }
+  .properties-slider-1-holder .properties-slider-1 { width: 100%; }
+  .properties-slider-1-img-holder { height: 230px; }
+  .properties-slider-1-cntnt-holder { padding: 0px 15px; margin-top: -25px; }
+  .properties-slider-1-cntnt-holder-inner { box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
+  .logos-slider.owl-carousel .owl-item img { max-width: 70%; }
+  .logos-slider-section { margin-bottom: 50px !important; }
+  .footer-part { margin-top: 70px; }
+  .top-footer-contacts-holder { top: -30px; }
+  .footer-contact-link-1-img-holder { flex-basis: 20px; max-width: 20px; }
+  .footer-contact-link-1-img-holder img { max-width: 100%; width: 100%; height: auto; }
+  .footer-row-3-col, .footer-row-3-col *, .footer-row-3-col p, .footer-row-3-col p[class] { font-size: 12px !important; }
+  .middle-footer-part .footer-contact-link-1-content { font-size: 14px !important; line-height: 1.5; }
+  /*=================================================== About Page CSS ===================================================*/
+  .about-section-col-has-img { padding-left: 35px; }
+  .about-section-col-has-img::before { width: calc(100% - 50px); left: 15px; bottom: 25px; }
+  .stories-slider-holder-nav { height: 55px; float: left !important; margin-top: 25px; }
+  .stories-slider-holder-nav [class*="owl-"] { width: 60px; }
+  .stories-section-title-holder { padding-bottom: 0px !important; }
+  .stories-slider-item-inner .stories-slider-item-dp-holder { width: 80px; height: 80px; }
+  .stories-slider-item-inner .stories-slider-quote-1 { font-size: 28px !important; }
+  .stories-slider-item-inner .stories-content-holder { padding: 0px 20px 30px 30px; }
+  .stories-slider-item-inner .stories-content-holder::after, .stories-slider-item-inner .stories-content-holder::before { font-size: 29px; }
+  .stories-slider-item-inner .stories-content-holder::before { margin-left: -35px; }
+  .stories-slider-item-inner .stories-content-holder::after { margin-right: -35px; }
+  .stories-slider-item-inner .stories-content-holder > h4 { font-size: 24px !important; }
+  .network-section .network-section-col { padding-top: 40px; }
+  .network-section .network-section-col-tabs a { padding: 10px 15px; font-size: 15px; }
+  .about-contact-section-banner-holder { height: auto; padding-top: 0px; }
+  .about-contact-map-holder { height: 200px; }
+  .about-contact-form-section { position: relative !important; top: 0; }
+  .about-contact-form-section > .container { padding: 0px !important; }
+  .about-contact-form-section > .container .about-contact-form-holder { padding: 35px 15px 75px 15px !important; }
+  .footer-cntct-left { flex-basis: 80px !important; max-width: 80px !important; }
+  .footer-cntct-right { flex-basis: 0px !important; flex-grow: 1; }
+  .about-contact-form-group-icon-holder > * { font-size: 16px; }
+  .about-contact-form-group-input-holder > input, .about-contact-form-group-input-holder > textarea { font-size: 18px; }
+  .about-contact-form-group { padding: 10px 20px; }
+  .about-contact-form-group-icon-holder { max-width: 20px; margin-top: 4px; }
+  .about-contact-form-group-input-holder { padding-left: 0px; }
+  /*=================================================== listings Page CSS ===================================================*/
+  .properties-slider-1-title { font-size: 22px !important; }
+  .properties-filter-section-container { padding: 15px !important; max-width: 95%; }
+  .pagi-1-link { font-size: 20px !important; }
+  .pagi-3-link-arrows, .pagi-1-link-arrows { margin: 10px 0px !important; padding: 8px 10px; }
+  .pagi-1-link { padding: 0px 8px !important; }
+  .support-section { margin: 0px !important; }
+  .support-section-col { margin-bottom: 35px; }
+  .top-featured-home-slider-caption-holder-inner .media .media-body > h4 { font-size: 24px !important; }
+  .top-featured-home-slider-caption-holder-inner .media .media-body > p { font-size: 15px !important; }
+  .top-featured-home-slider-caption-feat-col { margin-bottom: 8px; }
+  .prop-list-top-featured-home-section { margin-bottom: 50px; }
+  /*=================================================== single property Page CSS ===================================================*/
+  .prop-amen-cell-text > p { font-size: 18px !important; }
+  .gallery-top { height: 250px; }
+  .single-prop-swiper-nav-holder { padding: 15px; display: flex; }
+  .single-prop-swiper-nav-holder [class*="single-prop-swiper-nav"] { font-size: 16px; }
+  .single-prop-swiper-nav-holder .single-prop-swiper-nav-prev img { margin-right: 9px; }
+  .single-prop-swiper-nav-holder .single-prop-swiper-nav-next { margin-left: 15px; }
+  .single-prop-swiper-nav-holder .single-prop-swiper-nav-next img { margin-left: 9px; }
+  .gallery-thumbs { height: 135px; }
+  .prop-details-first-row-col-left { align-items: center !important; -ms-flex-align: center !important; }
+  .prop-details-first-row-col-left h1 { font-size: 28px !important; }
+  .prop-details-first-row-col-left .prop-feature-details-title-1, .prop-details-first-row-col-left .prop-feature-details-title-2 { font-size: 27px !important; }
+  .prop-details-first-row-col-right { text-align: left !important; margin-top: 15px; }
+  .prop-ftr-cntnt-cell-inner { padding: 15px; }
+  .prop-ftr-cntnt-cell-inner .prop-ftr-cntnt-cell-inner-img-holder { height: 25px; margin-bottom: 10px; }
+  .prop-ftr-cntnt-cell-inner .prop-ftr-cntnt-cell-inner-img-holder img { margin: 0px !important; }
+  .prop-ftr-cntnt-title-1 { font-size: 14px !important; text-align: center; }
+  .prop-features-cntnt-holder { padding: 35px 0px; }
+  .prop-features-location-holder p { font-size: 15px !important; }
+  .prop-features-location-holder p > i { margin-left: 5px !important; }
+  .prop-amen-section-title-holder { flex-wrap: no-wrap; }
+  .prop-amen-section-title-holder > h4 { font-size: 25px !important; margin-left: 15px !important; }
+  .prop-amen-section-title-holder img { width: 20px; }
+  .single-prop-extra-pics-slider-holder .single-prop-extra-pics-header-col { padding: 30px 10px !important; }
+  .single-prop-extra-pics-slider-holder { background: linear-gradient(to right, #000 0%, #000 80%, #fff 80%, #fff 100%); background: -moz-linear-gradient(to right, #000 0%, #000 80%, #fff 80%, #fff 100%); background: -webkit-linear-gradient(to right, #000 0%, #000 80%, #fff 80%, #fff 100%); background: -ms-linear-gradient(to right, #000 0%, #000 80%, #fff 80%, #fff 100%); background: -o-linear-gradient(to right, #000 0%, #000 80%, #fff 80%, #fff 100%); }
+  .single-prop-extra-pics-header-col-left > h4 { font-size: 22px !important; }
+  .single-prop-extra-pics-header-col-left > img { width: 32px; }
+  .location-nearby-locality-holder { bottom: unset; position: relative !important; }
+  .location-nearby-locality-holder .row { margin-right: -15px !important; }
+  .single-prop-extra-title-slider .item { background: #fff; padding: 10px; }
+  .location-nearby-locality-holder-col-right-inner { padding: 25px 15px !important; margin-top: 25px; }
+  .swiper-slide-prop-dtls-inner { padding: 15px !important; }
+  .prop-dtls-locality-img-holder { max-width: 50px; flex-basis: 50px; }
+  .prop-dtls-locality-img-holder > img { width: 100%; }
+  .prop-dtls-locality-cntnt-holder { padding-left: 10px; padding-right: 0px !important; }
+  .prop-dtls-locality-cntnt-holder > h4 { font-size: 21px !important; }
+  .prop-dtls-locality-cntnt-holder > p { font-size: 17px !important; }
+  .nearbylocationswiper-nav-holder { right: 30px; bottom: -40px; display: flex; flex-wrap: wrap; }
+  .nearbylocationswiper-nav-btn { width: 45px; height: 45px; }
+  .nearbylocationswiper-nav-btn img { transform: rotate(-90deg); width: 18px; }
+  /*=================================================== our team Page CSS ===================================================*/
+  .our-team-top-section { background: none; }
+  .our-team-top-section-col-left { margin-top: 0px; }
+  .our-team-pic-caption { bottom: -40px; left: 20px; writing-mode: unset; }
+  .team-intro-section-socials-holder { margin-top: -20px; padding: 15px !important; margin-right: -35px !important; }
+  .team-intro-section-socials-holder > p { font-size: 16px !important; }
+  .team-intro-section-socials-holder .team-intro-social-icon { padding: 0px 10px; font-size: 19px !important; }
+  .joinourteam-section-col-icon-holder { width: 20px; height: 20px; flex-basis: 20px; }
+  .joinourteam-section-col-icon-holder > i { font-size: 10px !important; }
+  .joinourteam-section-col-text-holder { padding-left: 5px !important; }
+  .joinourteam-section-col-text-holder > h3 { font-size: 18px !important; }
+  .joinourteam-section-col-right > a { padding: 7px 10px !important; font-size: 12px !important; }
+  .joinourteam-section-col-left { padding-right: 0px !important; }
+  /*=================================================== Blog Page CSS ===================================================*/
+  .blogs-item-header-2 > h3 { font-size: 27px !important; }
+  .blog-item-date-holder { height: 90px; width: 90px; }
+  .blog-item-date-holder .blog-item-date-ele-1 { width: 65px; flex-basis: 65px; font-size: 25px !important; padding: 0px; flex-grow: 0; }
+  .blog-item-date-holder .blog-item-date-ele-1 > span { font-size: 13px !important; }
+  .blog-item-date-holder .blog-item-date-ele-2 { font-size: 13px !important; flex-basis: 0; flex-grow: 1; }
+  .blog-item-number { bottom: 5px; left: 15px; letter-spacing: -2px; }
+  .blog-item-number p { font-size: 25px !important; }
+  .blog-item-type { width: 55px; height: 55px; right: 20px; bottom: -33px; font-size: 20px !important; }
+  .blog-item-cntnt-holder { padding: 15px; }
+  .blog-item-cntnt-heading { max-width: none; display: table; flex-basis: auto; width: 100%; }
+  .blogs-item-comments-counter { justify-content: flex-start !important; }
+  .blogs-item-comments-counter > * { font-size: 17px !important; }
+  .blog-item-cntnt-holder-body > p { font-size: 17px !important; margin-top: 10px !important; margin-bottom: 10px !important; }
+  .blog-item-cntnt-holder-header { padding-bottom: 10px !important; }
+  .blog-read-more-btn { padding: 7px 35px !important; font-size: 17px !important; }
+  .pagi-2-link-arrows, .pagi-2-link { width: 40px; height: 40px; margin: 0px 5px !important; padding: 0px 10px !important; font-size: 17px !important; }
+  .subscriber-section .subscriber-section-col-left { justify-content: flex-start; flex-basis: 100%; max-width: 100%; }
+  .subscriber-section .subscriber-section-col-left > img { margin-top: -80px; }
+  .blogs-item-header-1 > p, .top-tradning-item-title-1, .subscribe-newsletter-title-1 { font-size: 21px !important; }
+  .subscriber-form-holder p { font-size: 14px !important; }
+  .subscriber-section .subscriber-btn-holder { flex-basis: 100%; max-width: 100%; }
+  .subscriber-section .subscribe-newsletter-btn-1 { padding: 9px 15px !important; font-size: 16px !important; margin-top: 5px; }
+  .subscriber-section .subscriber-input { font-size: 19px; padding-left: 0px; padding-bottom: 10px; }
+  .top-tranding-cntnt-holder { padding: 15px !important; }
+  .top-tranding-cntnt-holder p.top-tranding-seller-cntnt { font-size: 10px !important; }
+  /*=================================================== Single Blog Page CSS ===================================================*/
+  .blog-detail-page .blog-item-img-holder { height: 300px; }
+  .blog-detail-page .blog-item-share-holder { padding: 25px 20px; }
+  .blog-detail-page .first-letter-big::first-letter { font-size: 64px; padding-right: 5px; }
+  .blog-detail-page .share-holder-1-inner { padding-top: 45px; }
+  .blog-detail-page .share-holder-1-inner::before, .blog-detail-page .share-holder-1-inner::after { top: 15px; margin-top: 0px; left: 0px; }
+  .blog-detail-page .share-holder-1-inner::after { top: 20px; }
+  .blog-detail-page .share-holder-1-icon { width: 30px; height: 30px; background-size: 475px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-fb { background-position: 0px 0px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-twtr { background-position: -54px 0px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-gp { background-position: -113px 0px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-linkedin { background-position: -169px 0px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-pin { background-position: -224px 0px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-4 { background-position: -281px 0px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-tumblr { background-position: -335px 0px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-2 { background-position: -389px 0px; }
+  .blog-detail-page .share-holder-1-icon.share-holder-1-icon-3 { background-position: -447px 0px; }
+  .blog-detail-page .subscriber-section .subscriber-section-col-left > img { margin-top: -60px; width: 60px; }
+  .blog-detail-page .blog-details-like-share-holder > p { font-size: 18px !important; margin: 0px auto !important; }
+  .blog-detail-page .blog-detail-comment-img-holder { width: 35px; height: 35px; flex-basis: 35px; }
+  .blog-detail-page .blog-detail-comment-cntnt-header-col-left > h4 { font-size: 17px !important; }
+  .blog-detail-page .blog-detail-comment-cntnt-header-col-left > p, .blog-detail-page .blog-detail-comment-cntnt-header-col-left > p > i { font-size: 16px !important; }
+  .pagi-3-holder { padding: 15px 0px !important; }
+  .pagi-3-btn-inner > p { display: none; }
+  .blog-details-like-share-btn { padding: 10px 20px !important; }
+  .blog-details-like-share-btn > *, .blog-details-like-share-btn > p { font-size: 13px !important; }
+  .blog-details-like-share-btn > i { margin-right: 5px !important; }
+  .top-tranding-item-hot::before { top: -10px; transform: scale(0.5); }
+  /*=================================================== FAQ Page CSS ===================================================*/
+  .we-here-section-col { flex-basis: 70px; padding: 5px; max-width: 70px; }
+  .we-here-section-col > img { width: 35px; }
+  .we-here-section-col-right h3, .faq-slider-tabs-section h3 { font-size: 20px !important; }
+  .we-here-section-col-right p, .faq-slider-tabs-section p { font-size: 15px !important; line-height: 1.5; }
+  .we-here-section-col-right { padding: 10px !important; }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link, .faq-slider-tab-accordion .card .card-body { padding: 15px; }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link::after, .faq-slider-tab-accordion .card .card-body::after { width: calc(100% - 30px); }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link .faq-card-link-img, .faq-slider-tab-accordion .card .card-body .faq-card-link-img { width: 13px; }
+  .faq-slider-tab-accordion .card .card-header .faq-card-link .faq-card-link-content, .faq-slider-tab-accordion .card .card-body .faq-card-link-content { font-size: 16px !important; padding-right: 5px; line-height: 1.3; }
+  .subscriber-section-col-right h5 { font-size: 20px !important; }
+  .subscriber-btn-holder > .btn { padding: 10px 16px !important; line-height: 1; font-size: 16px !important; width: 100%; }
+  .subscriber-input { padding-left: 5px; }
+  .subscriber-input, .subscriber-form-holder > form > p { font-size: 15px !important; }
+  .more-contact-section .more-contact-section-col-left .faq-schedule-box { max-width: 290px; padding: 15px !important; }
+  .more-contact-section .more-contact-section-col-left > img { max-width: 200px; margin-left: 0px !important; margin-bottom: 130px; }
+  .more-contact-section .faq-cntct-bx .faq-cntct-bx-link { font-size: 19px !important; }
+  .more-contact-section .faq-cntct-bx p { font-size: 16px !important; }
+  /*=================================================== Contact Page CSS ===================================================*/
+  .contact-us-map-caption-holder .contact-us-map-caption-cntnt-holder > p { font-size: 15px !important; line-height: 1.5; }
+  .subscriber-section { margin-top: 80px !important; }
+  .network-section .network-section-map-img-holder img { height: auto; } }
+@media only screen and (max-height: 550px) { .header { padding-top: 15px !important; }
+  .custom-carousel-caption-1 { margin-bottom: 16vh; }
+  .owl-carousel-home .owl-item.active .custom-carousel-caption-3 { bottom: 35%; right: 15px; }
+  .custom-carousel-caption-title-1 { font-size: 35px !important; margin-bottom: 0px !important; }
+  .custom-carousel-caption-subtitle, p.custom-carousel-caption-subtitle { margin-bottom: 5px !important; font-size: 11px !important; }
+  .main-banner-caption-link:hover { padding: 0px 0px 0px 15px; }
+  .main-banner-caption-link:before { height: calc(100% + 15px); } }
+@media only screen and (max-height: 310px) { .custom-carousel-caption-1 { display: none; }
+  .owl-carousel-home .owl-item.active .custom-carousel-caption-3 { bottom: 70%; }
+  .owl-carousel-home .owl-item.active .custom-carousel-caption-3 .banner-prop-social-icons-holder { display: flex; }
+  .owl-carousel-home .owl-item.active .custom-carousel-caption-3 .banner-prop-social-icons-holder > li { margin: 0px 8px; } }
+
+/*# sourceMappingURL=responsive.css.map */
