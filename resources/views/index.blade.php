@@ -46,36 +46,6 @@
                         <p class="custom-carousel-caption-subtitle text-uppercase mb-3 text-white">casas pré fabricadas</p>
                         <h3 class="custom-carousel-caption-title-1 text-white mb-4">OBRA COMPLETA, <br>DO INÍCIO AO FIM</h3>
                     </div>
-                    <div class="custom-carousel-caption-2 clearfix position-relative d-flex flex-wrap align-items-start">
-                        <div class="prop-holder-pic clearfix h-100">
-                            <img src="images/amostra-1.jpg" alt="prop-holder" class="object-fit-cover w-100 h-100" />
-                        </div>
-                        <div class="prop-holder-content-holder1 p-4 clearfix bg-white d-flex flex-wrap align-items-center h-100">
-                            <div class="prop-holder-content-inner clearfix">
-                                <h5 class="prop-holder-title-1 text-dark">Madeira Peroba</h5>
-                                <p class="prop-holder-title-2 text-uppercase text-dark">Casa de campo</p>
-                            </div>
-                            <a class="mr-0 ml-auto prop-holder-link" href="javascript:"><img src="images/long-arrow-right-black.png" alt="arrow" /></a>
-                        </div>
-                        <div class="prop-holder-content-holder1 prop-holder-content-holder2 p-4 clearfix bg-green-1 d-none d-lg-flex flex-wrap align-items-center h-100">
-                            <div class="prop-holder-content-inner clearfix">
-                                <h5 class="prop-holder-title-1 text-white">Tijucas</h5>
-                                <p class="prop-holder-title-2 text-uppercase text-white">Santa Catarina</p>
-                            </div>
-                            <div class="prop-holder-content-inner clearfix">
-                                <h5 class="prop-holder-title-1 text-white">5 meses</h5>
-                                <p class="prop-holder-title-2 text-uppercase text-white">Tempo de construção</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="custom-carousel-caption-3 clearfix position-absolute">
-                        <ul class="banner-prop-social-icons-holder clearfix list-unstyled">
-                            <li><a href="javascript:" class="text-decoration-none text-white banner-prop-social-icons-link"><i class="fab fa-facebook-square text-white"></i></a></li>
-                            <li><a href="javascript:" class="text-decoration-none text-white banner-prop-social-icons-link"><i class="fab fa-youtube text-white"></i></a></li>
-                            <li><a href="javascript:" class="text-decoration-none text-white banner-prop-social-icons-link"><i class="fab fa-instagram text-white"></i></a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
