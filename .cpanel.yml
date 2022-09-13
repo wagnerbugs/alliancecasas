@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/alliance/alliancecasas
+    - export DEPLOYPATH=/home/alliance/alliancecasas/
     - /bin/cp -R * $DEPLOYPATH
