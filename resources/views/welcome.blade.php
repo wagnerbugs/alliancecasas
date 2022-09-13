@@ -737,7 +737,7 @@
             <div class="mt-8 overflow-hidden text-center">
 
                 <img src="{{ url('/storage/images/logo-1.png') }}" alt="Alliance Casas">
-                <h3 class="px-6 uppercase text-white text-flicker-in-glow">em instantes o novo portal Alliance Casas Pré Fabricadas</h3>
+                <h3 class="px-6 uppercase text-white text-flicker-in-glow">. em instantes o novo portal Alliance Casas Pré Fabricadas</h3>
 
             </div>
         </div>
