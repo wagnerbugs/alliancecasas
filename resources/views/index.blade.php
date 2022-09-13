@@ -3,31 +3,21 @@
 @section('metaHead')
 
 {{-- Generic meta tags --}}
-<title>Notícias de Tijucas e região | Jornal Razão</title>
-<meta name="description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda.">
-<meta name="keywords" content="jornal razao, vale do rio tijucas, costa esmeralda, jornal, notícia">
-
-{{-- Twitter meta tags --}}
-<meta name="twitter:card" content="summary">
-<meta name="twitter:url" content="{{ URL::current() }}">
-<meta name="twitter:title" content="Notícias de Tijucas e região | Jornal Razão" />
-<meta name="twitter:description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda.">
-<meta name="twitter:image" content="https://jornalrazao.com/images/logos/og.png">
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@jornalrazao" />
-<meta name="twitter:creator" content="@jornalrazao" />
+<title>Alliance Casas Pré Fabricadas</title>
+<meta name="description" content="Alliance casas pré fabricadas">
+<meta name="keywords" content="casa de madeira, casa pré fabricada, madeira de lei">
 
 {{-- Og meta tags --}}
-<meta property="og:title" content="Jornal Razão" />
-<meta property="og:description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda." />
+<meta property="og:title" content="Alliance Casas Pré Fabricadas" />
+<meta property="og:description" content="Alliance Casas Pré Fabricadas" />
 <meta property="og:type" content="website" />
-<meta property="og:image:alt" content="Jornal Razão" />
+<meta property="og:image:alt" content="Alliance" />
 <meta property="og:image:type" content="image/png" />
-<meta property="og:image" content="https://jornalrazao.com/images/logos/og.png" />
-<meta property="og:image:secure_url" content="https://jornalrazao.com/images/logos/og.png" />
+<meta property="og:image" content="https://alliancecasas.com.br" />
+<meta property="og:image:secure_url" content="https://alliancecasas.com.br" />
 
 {{-- Article meta tags --}}
-<meta property="article:publisher" content="https://www.facebook.com/jornalrazao/" />
+<meta property="article:publisher" content="https://www.facebook.com/alliancecasasprefabricadas/" />
 
 @endsection
 
@@ -54,7 +44,7 @@
                 <div class="container clearfix">
                     <div class="custom-carousel-caption-1 clearfix position-relative">
                         <p class="custom-carousel-caption-subtitle text-uppercase mb-3 text-white">casas pré fabricadas</p>
-                        <h3 class="custom-carousel-caption-title-1 text-white mb-4">DA FUNDAÇÃO<br>AO TETO</h3>
+                        <h3 class="custom-carousel-caption-title-1 text-white mb-4">OBRA COMPLETA, <br>DO INÍCIO AO FIM</h3>
                     </div>
                     <div class="custom-carousel-caption-2 clearfix position-relative d-flex flex-wrap align-items-start">
                         <div class="prop-holder-pic clearfix h-100">
@@ -154,7 +144,7 @@
                     <h3 class="top-content-col-number">1</h3>
                     <h6 class="top-content-col-title text-uppercase">Madeira de Altíssima Qualidade</h6>
                     <span class="devider-square-1"></span>
-                    <p>Pequeno texto falando sobre a qualidade da madeira. Alguns exemplos da madeira.</p>
+                    <p>As madeiras nobres, mais conhecidas como 'madeiras de lei' são espécies de árvores que possuem mais durabilidade que as comuns, além de maior resistência ao ataque de fungos e doenças, bem como contra umidade e cupins. Entre as madeiras nobres utilizadas nas casas da Alliance estão as espécies grápia, itaúba, angelim e peroba.</p>
 
                 </div>
             </div>
@@ -163,7 +153,7 @@
                     <h3 class="top-content-col-number">2</h3>
                     <h6 class="top-content-col-title text-uppercase">Projetos Personalizados</h6>
                     <span class="devider-square-1"></span>
-                    <p>Pequeno texto falando sobre os projetos individuais e personalizados para cada cliente. </p>
+                    <p>As casas de madeira da Alliance são projetadas de forma exclusiva para cada cliente. Você escolhe o tamanho do seu projeto e nossa equipe se encarrega de realizar o seu sonho com cada detalhe.</p>
 
                 </div>
             </div>
@@ -172,7 +162,7 @@
                     <h3 class="top-content-col-number">3</h3>
                     <h6 class="top-content-col-title text-uppercase">Obra Completa</h6>
                     <span class="devider-square-1"></span>
-                    <p>pequeno texto explicando que o projeto de construção inclui a parte de alvenaria, elétrica, hidráulica, etc;</p>
+                    <p>Sem pegadinhas e sem preocupação: com a Alliance, sua casa é feita completa, desde o alicerce até o acabamento. Hidráulica, elétrica, forro... entregamos seu lar pronto para morar.</p>
 
                 </div>
             </div>
@@ -181,7 +171,7 @@
                     <h3 class="top-content-col-number">4</h3>
                     <h6 class="top-content-col-title text-uppercase">Rapidez</h6>
                     <span class="devider-square-1"></span>
-                    <p>Tempo de execução vs. casas de alvenaria + durabilidade e baixa manutenção</p>
+                    <p>Executamos mais de 35 obras simultaneamente. Nossa equipe é extremamente competente, o que permite lhe entregar com agilidade seu novo lar. Em 2021, a Alliance realizou o sonho de 140 famílias.</p>
 
                 </div>
             </div>
