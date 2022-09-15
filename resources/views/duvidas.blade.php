@@ -169,7 +169,7 @@
                     </div>
                     <div class="card mb-4 overflow-hidden">
                         <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseFive">
+                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseSix">
                                 <span class="faq-card-link-content flex-grow-0">A parte elétrica e hidráulica vocês fazem?</span>
                                 <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
                             </a>
@@ -184,7 +184,7 @@
                     </div>
                     <div class="card mb-4 overflow-hidden">
                         <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseFive">
+                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseSeven">
                                 <span class="faq-card-link-content flex-grow-0">Posso usar um projeto/sonho meu?</span>
                                 <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
                             </a>
@@ -199,7 +199,7 @@
                     </div>
                     <div class="card mb-4 overflow-hidden">
                         <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseFive">
+                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseEight">
                                 <span class="faq-card-link-content flex-grow-0">Posso usar um projeto meu que já está pronto ou tenho que adaptar?</span>
                                 <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
                             </a>
