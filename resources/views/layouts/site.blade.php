@@ -78,7 +78,7 @@
                                 <li><a class="nav-section-link text-decoration-none">&nbsp;</a></li>
                                 <li><a href="{{ route('site.index') }}" class="nav-section-link active text-decoration-none">Início</a></li>
                                 <li><a href="{{ route('site.sobre') }}" class="nav-section-link text-decoration-none">Sobre nós</a></li>
-                                <li><a href="{{ route('site.obras') }}" class="nav-section-link text-decoration-none">Casas & Projetos</a></li>
+                                {{-- <li><a href="route('site.obras') }}" class="nav-section-link text-decoration-none">Casas & Projetos</a></li> --}}
                                 <li><a href="{{ route('site.duvidas') }}" class="nav-section-link text-decoration-none">Dúvidas</a></li>
                                 <li><a href="{{ route('site.contato') }}" class="nav-section-link text-decoration-none">Fale conosco</a></li>
                             </ul>
@@ -172,9 +172,7 @@
                             <span class="divider-green-1 mt-2"></span>
                             <ul class="list-unstyled mt-5 footer-links-ul">
                                 <li><a href="{{ route('site.madeira') }}" class="text-decoration-none footer-nav-link-1">O que é madeira de lei?</a></li>
-                                <li><a href="{{ route('site.madeira') }}" class="text-decoration-none footer-nav-link-1">Durabilidade e conservação</a></li>
-                                <li><a href="{{ route('site.madeira') }}" class="text-decoration-none footer-nav-link-1">Conceito pré fabricado</a></li>
-                                <li><a href="{{ route('site.madeira') }}" class="text-decoration-none footer-nav-link-1">Projeto personalizado</a></li>
+                                <li><a href="{{ route('site.investir') }}" class="text-decoration-none footer-nav-link-1">Vale a pena comprar casa de madeira?</a></li>
                             </ul>
                             <div class="d-flex flex-wrap clearfix footer-social-holder ml-n1">
                                 <a href="https://www.facebook.com/alliancecasasprefabricadas" class="footer-social-link bg-green-1 text-white d-inline-flex align-items-center justify-content-center rounded-circle text-decoration-none mx-1"><i class="fab fa-facebook-f"></i></a>

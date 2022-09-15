@@ -123,4 +123,14 @@ class SiteController extends Controller
     {
         return view('pages.madeira');
     }
+
+    /**
+     * Função responsável pelo carregamento da página vale a pena compra casa de madeira.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function investir()
+    {
+        return view('pages.investir');
+    }
 }
