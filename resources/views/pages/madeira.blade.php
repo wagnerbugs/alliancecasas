@@ -134,7 +134,9 @@
         <div class="share-holder-1 clearfix d-flex flex-wrap align-items-center my-5" data-aos="fade-up" data-aos-delay="350">
             <p class="font-AvenirLTStd-Medium font-28 text-black text-uppercase line-height-1">compartilhe</p>
             <div class="share-holder-1-inner clearfix flex-grow-1 ml-md-5">
-                <div class="share-holder-1-icons-holder clearfix bg-white d-table ml-auto mr-0 z-index-1 position-relative"> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-fb"></a> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-twtr"></a> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-gp"></a> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-linkedin"></a> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-pin"></a> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-4"></a> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-tumblr"></a> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-2"></a> <a href="javascript:" class="share-holder-1-icon share-holder-1-icon-3"></a> </div>
+                <div class="share-holder-1-icons-holder clearfix bg-white d-table ml-auto mr-0 z-index-1 position-relative">
+                    <div class="sharethis-inline-share-buttons"></div>
+                </div>
             </div>
         </div>
     </div>
