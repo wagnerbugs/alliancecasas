@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\SiteController;
 
 Route::controller(SiteController::class)->group(function () {
-    Route::get('/homeindex', 'home')->name('site.home');
     Route::get('/', 'index')->name('site.index'); //index
     Route::get('/sobre', 'sobre')->name('site.sobre');
     Route::get('/casas', 'obras')->name('site.obras');

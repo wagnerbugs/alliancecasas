@@ -15,16 +15,6 @@ class SiteController extends Controller
      */
     public function index()
     {
-        return view('welcome');
-    }
-
-    /**
-     * Função responsável pelo carregamento da página inicial.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function home()
-    {
         return view('index');
     }
 
