@@ -132,7 +132,7 @@
         <p class="font-30 blog-item-content-p font-AvenirLTStd-Medium">Falando em resistência, saiba que o material pode durar centenas de anos. De fato, madeira de lei é uma ótima opção àqueles que querem construir um imóvel com valor acessível e qualidade.</p>
 
         <div class="share-holder-1 clearfix d-flex flex-wrap align-items-center my-5" data-aos="fade-up" data-aos-delay="350">
-            <p class="font-AvenirLTStd-Medium font-28 text-black text-uppercase line-height-1">compartilhe</p>
+            <p class="font-AvenirLTStd-Medium font-28 text-black text-uppercase line-height-1 mr-4">compartilhe</p>
             <div class="sharethis-inline-share-buttons"></div>
         </div>
     </div>
