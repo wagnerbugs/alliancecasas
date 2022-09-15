@@ -28,6 +28,25 @@
 @endsection
 
 @section('codeFoot')
+<script>
+    $('#modalImage').on('show.bs.modal', function(event) {
+        var button = $(event.relatedTarget);
+        var recipientData = button.data('imagem');
+        console.log(recipientData);
+
+        $('#asset-image').attr('src', recipientData);
+
+    });
+
+    $('#modalPlanta').on('show.bs.modal', function(event) {
+        var button = $(event.relatedTarget);
+        var recipientData = button.data('planta');
+        console.log(recipientData);
+
+        $('#asset-planta').attr('src', recipientData);
+
+    });
+</script>
 @endsection
 
 @section('content')
@@ -38,7 +57,7 @@
         <!-- owl item -->
         <div class="item top-banner-item">
             <div class="top-video-banner-holder w-100 h-100" style="background:#000;">
-                <img src="images/fundo-topo.jpg" alt="classic realtors" class="object-fit-cover w-100 h-100" />
+                <img src="images/fundo-topo.jpeg" alt="classic realtors" class="object-fit-cover w-100 h-100" />
             </div>
             <div class="custom-carousel-caption-holder clearfix position-absolute w-100 h-100 d-flex flex-wrap align-items-end">
                 <div class="container clearfix">
@@ -125,12 +144,11 @@
         <div class="row clearfix align-items-end">
             <div class="col-sm-6 clearfix my-achieves-section-col my-achieves-section-col-right pl-5 mr-0 ml-auto order-sm-last" data-aos="fade-in">
                 <h6 class="subtitle-1 text-uppercase">Sustentabilidade</h6>
-                <h5 class="title-2">Madeira nobre de reflorestamento</h5>
-                <h6 class="subtitle-2">Altíssima qualidade e durabilidade</h6>
+                <h5 class="title-2">Casas de madeiras feitas para durar uma vida inteira</h5>
             </div>
             <div class="col-sm-6 clearfix my-achieves-section-col">
                 <div class="title-3-holder clearfix  mb-2" data-aos="fade-right">
-                    <h2 class="title-3 text-uppercase d-inline-flex align-items-center">Madeira de lei <img src="images/long-arrow-right-black.png" alt="arrow" class="ml-4" /></h2>
+                    <h2 class="title-3 text-uppercase d-inline-flex align-items-center">Projetos personalizados <img src="images/long-arrow-right-black.png" alt="arrow" class="ml-4" /></h2>
                 </div>
             </div>
         </div>
@@ -140,7 +158,7 @@
             <div class="awards-images-holder clearfix position-relative">
                 <div class="row clearfix">
                     <div class="col-md-4 clearfix awards-info-holder-col text-md-right pt-3 pr-5">
-                        <h4 class="title-4 text-uppercase text-white mb-5" data-aos="fade-up">Amostra</h4>
+                        <h4 class="title-4 text-uppercase text-white mb-5" data-aos="fade-up">Projetos</h4>
                         <p class="font-Pacifico-Regular font-24 text-white mb-4 awards-content" data-aos="fade-up" data-aos-delay="200">Projetos realizados:<br><span class="font-Montserrat-Medium font-31">( 382 )</span></p>
                         <p class="font-Pacifico-Regular font-24 text-white mb-4 awards-content" data-aos="fade-up" data-aos-delay="400">Em andamento:<br><span class="font-Montserrat-Medium font-31">( 17 )</span></p>
                         <span class="badge badge-pill badge-warning award-pill font-Ubuntu-M font-24 py-3 px-4" data-aos="fade-in" data-aos-delay="500">2019 - 2022</span>
@@ -149,37 +167,62 @@
                         <div class="row clearfix awards-all-holder-col-row">
                             <div class="col-6 col-sm-4 award-holder-col clearfix my-3" data-aos="fade-right">
                                 <div class="award-holder-col-inner rounded d-flex flex-wrap align-items-center justify-content-center p-3 cursor-pointer h-100">
-                                    <img src="images/modelo-1.jpg" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    <a href="" data-toggle="modal" data-target="#modalImage" data-imagem="images/c2.webp">
+                                        <img src="images/c2.webp" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 award-holder-col clearfix my-3" data-aos="fade-right" data-aos-delay="200">
                                 <div class="award-holder-col-inner rounded d-flex flex-wrap align-items-center justify-content-center p-3 cursor-pointer h-100">
-                                    <img src="images/modelo-2.jpg" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    <a href="" data-toggle="modal" data-target="#modalImage" data-imagem="images/c7.webp">
+                                        <img src="images/c7.webp" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 award-holder-col clearfix my-3" data-aos="fade-right" data-aos-delay="300">
                                 <div class="award-holder-col-inner rounded d-flex flex-wrap align-items-center justify-content-center p-3 cursor-pointer h-100">
-                                    <img src="images/modelo-3.jpg" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    <a href="" data-toggle="modal" data-target="#modalImage" data-imagem="images/c12.webp">
+                                        <img src="images/c12.webp" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 award-holder-col clearfix my-3" data-aos="fade-right" data-aos-delay="400">
                                 <div class="award-holder-col-inner rounded d-flex flex-wrap align-items-center justify-content-center p-3 cursor-pointer h-100">
-                                    <img src="images/modelo-4.jpg" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    <a href="" data-toggle="modal" data-target="#modalImage" data-imagem="images/c13.webp">
+                                        <img src="images/c13.webp" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 award-holder-col clearfix my-3" data-aos="fade-right" data-aos-delay="500">
                                 <div class="award-holder-col-inner rounded d-flex flex-wrap align-items-center justify-content-center p-3 cursor-pointer h-100">
-                                    <img src="images/modelo-5.jpg" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    <a href="" data-toggle="modal" data-target="#modalImage" data-imagem="images/c15.webp">
+                                        <img src="images/c15.webp" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 award-holder-col clearfix my-3" data-aos="fade-right" data-aos-delay="600">
                                 <div class="award-holder-col-inner rounded d-flex flex-wrap align-items-center justify-content-center p-3 cursor-pointer h-100">
-                                    <img src="images/modelo-6.jpg" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    <a href="" data-toggle="modal" data-target="#modalImage" data-imagem="images/c1.jpg">
+                                        <img src="images/c1.jpg" alt="award" class="img-grayscale mh-100 mw-100" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalImage" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img alt="" id="asset-image" class="img-fluid""">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
         </div>
     </div>
@@ -208,8 +251,8 @@
                             <a href="javascript:" class="btn btn-play-green-1 text-decoration-none rounded-circle shadow p-2 d-flex align-items-center justify-content-center testimonial-player"><i class="fas fa-play text-white font-20"></i></a>
                             <div class="clearfix mb-0 mt-auto">
                                 <p class="font-18 font-AvenirLTStd-Roman mb-4 text-white">"Fiquei surpreso com o prazo estabelecido e mais surpreso ao entregarem antes do tempo. Ficou perfeito".</p>
-                                <h4 class="creative-testimonial-1-username text-white font-20 font-Brandon_med mb-2">Antônio</h4>
-                                <h6 class="creative-testimonial-1-location text-white font-15 font-AvenirLTStd-Medium">Florianópolis, SC</h6>
+                                <h4 class="creative-testimonial-1-username text-white font-20 font-Brandon_med mb-2"></h4>
+                                <h6 class="creative-testimonial-1-location text-white font-15 font-AvenirLTStd-Medium">Tijucas, SC</h6>
                             </div>
                         </div>
 
@@ -226,17 +269,17 @@
                 </div>
                 <div class="col-md-3 creative-testimonials-holder1-col clearfix px-0">
                     <div class="creative-testimonials-holder1-col-inner clearfix bg-creame-color position-relative creative-testimonials-holder1-col-inner-shadow2 h-100" data-aos="fade-in" data-aos-delay="400">
-                        <img src="images/antonio.png" alt="testimonials" class="creative-testimonials-img float-right mh-100 mw-100" />
+                        <img src="images/laura.png" alt="testimonials" class="creative-testimonials-img float-right mh-100 mw-100 img-fluid" />
                         <div class="creative-testimonials-1-caption-holder creative-testimonials-1-caption-holder-pb-extra w-100 h-100 p-4 position-absolute clearfix text-white d-flex flex-wrap flex-column">
                             <a href="javascript:" class="btn btn-play-green-1 text-decoration-none rounded-circle shadow p-2 d-flex align-items-center justify-content-center testimonial-player"><i class="fas fa-play text-white font-20 "></i></a>
                             <div class="clearfix mb-0 mt-auto">
-                                <h4 class="creative-testimonial-1-username text-white font-20 font-Brandon_med mb-2">Antonio</h4>
-                                <h6 class="creative-testimonial-1-location text-white font-15 font-AvenirLTStd-Medium">Tijucas, SC</h6>
+                                <h4 class="creative-testimonial-1-username text-white font-20 font-Brandon_med mb-2">Dona Laura</h4>
+                                <h6 class="creative-testimonial-1-location text-white font-15 font-AvenirLTStd-Medium">Joinville, SC</h6>
                             </div>
                         </div>
                         <div class="testimonials-video-holder position-absolute clearfix w-100 h-100 overflow-hidden">
-                            <video class='video-js' loop>
-                                <source src='videos/depoimento-2.mp4' type='video/mp4'>
+                            <video class='video-js' loop style="display: block; margin-top: -150px; margin-left:-90px;">
+                                <source src='videos/depoimento-1.mp4' type='video/mp4'>
                                 <p class='vjs-no-js'>
                                     To view this video please enable JavaScript, and consider upgrading to a web browser that
                                     <a href='https://videojs.com/html5-video-support/'>supports HTML5 video</a>
@@ -245,59 +288,6 @@
                         </div>
 
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container clearfix">
-        <div class="creative-testimonials-holder1 clearfix row clearix mx-0">
-            <div class="col-md-1 creative-testimonials-holder1-col clearfix px-0">
-            </div>
-            <div class="col-md-3 creative-testimonials-holder1-col clearfix px-0">
-                <div class="creative-testimonials-holder1-col-inner clearfix bg-grey-1 position-relative" data-aos="fade-in" data-aos-delay="100">
-                    <img src="images/dona-laura.png" alt="testimonials" class="creative-testimonials-img float-right mh-100 mw-100" />
-                    <div class="creative-testimonials-1-caption-holder w-100 h-100 p-4 position-absolute clearfix text-white d-flex flex-wrap flex-column">
-                        <a href="javascript:" class="btn btn-play-green-1 text-decoration-none rounded-circle shadow p-2 d-flex align-items-center justify-content-center testimonial-player"><i class="fas fa-play text-white font-20"></i></a>
-                        <div class="clearfix mb-0 mt-auto">
-                            <h4 class="creative-testimonial-1-username text-white font-20 font-Brandon_med mb-2">Laura</h4>
-                            <h6 class="creative-testimonial-1-location text-white font-15 font-AvenirLTStd-Medium">Joinville, SC</h6>
-                        </div>
-                    </div>
-                    <div class="testimonials-video-holder position-absolute clearfix w-100 h-100 overflow-hidden">
-
-                        <video class='video-js' loop>
-                            <source src='videos/depoimento-3.mp4' type='video/mp4'>
-                            <p class='vjs-no-js'>
-                                To view this video please enable JavaScript, and consider upgrading to a web browser that
-                                <a href='https://videojs.com/html5-video-support/'>supports HTML5 video</a>
-                            </p>
-                        </video>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-8 creative-testimonials-holder1-col clearfix px-0 mt-n145">
-                <div class="creative-testimonials-holder1-col-inner clearfix bg-blue-pattern position-relative creative-testimonials-holder1-col-inner-shadow3" data-aos="fade-in" data-aos-duration="250">
-                    <img src="images/dona-laura.png" alt="testimonials" class="creative-testimonials-img float-right mh-100 mw-100" />
-                    <div class="creative-testimonials-1-caption-holder w-100 h-100 p-4 position-absolute clearfix text-white d-flex flex-wrap flex-column">
-                        <a href="javascript:" class="btn btn-play-green-1 text-decoration-none rounded-circle shadow p-2 d-flex align-items-center justify-content-center testimonial-player"><i class="fas fa-play text-white font-20"></i></a>
-                        <div class="clearfix mb-0 mt-auto">
-                            <p class="font-18 font-AvenirLTStd-Roman mb-4 text-white">Minha famílie e eu somos gratos pela escolha que fizemos. Pessoal super atencioso e talentoso. </p>
-                            <h4 class="creative-testimonial-1-username text-white font-20 font-Brandon_med mb-2">Laura </h4>
-                            <h6 class="creative-testimonial-1-location text-white font-15 font-AvenirLTStd-Medium">Passo Fundo, RS</h6>
-                        </div>
-                    </div>
-                    <div class="testimonials-video-holder position-absolute clearfix w-100 h-100 overflow-hidden">
-
-                        <video class='video-js' loop>
-                            <source src='videos/depoimento-1.mp4' type='video/mp4'>
-                            <p class='vjs-no-js'>
-                                To view this video please enable JavaScript, and consider upgrading to a web browser that
-                                <a href='https://videojs.com/html5-video-support/'>supports HTML5 video</a>
-                            </p>
-                        </video>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -313,53 +303,42 @@
                     <h2 class="title-1 text-uppercase" data-aos="fade-in"><span class="text-black-50">Top </span>Finalizados</h2>
                 </div>
             </div>
-            <div class="col-md-3 clearfix text-md-right">
-                <div class="title-3-holder clearfix ">
-                    <a href="javascript:" data-aos="fade-right" data-aos-delay="400" class="btn-link title-3 d-inline-flex align-items-center text-decoration-none text-black top-featured-prop-slider-ani-btn">Ver todos<img src="images/long-arrow-right-black.png" alt="arrow" class="ml-4"></a>
-                </div>
-            </div>
         </div>
     </div>
     <div class="top-featured-home-slider-section clearfix bg-black-grey-gradient">
         <div class="container clearfix position-relative">
-            <div id="sliderimg" class="owl-carousel top-featured-home-slider-img-owl" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="200">
-                <div class="item active"><img src="images/1.webp" alt="classic realtors" class="object-fit-cover h-100 w-100" /></div>
-                <div class="item"><img src="images/2.webp" alt="classic realtors" class="object-fit-cover h-100 w-100" /></div>
-                <div class="item"><img src="images/3.webp" alt="classic realtors" class="object-fit-cover h-100 w-100" /></div>
-                <div class="item"><img src="images/4.webp" alt="classic realtors" class="object-fit-cover h-100 w-100" /></div>
-                <div class="item"><img src="images/5.webp" alt="classic realtors" class="object-fit-cover h-100 w-100" /></div>
+            <div id="sliderimg" class="owl-carousel top-featured-home-slider-img-owl" data-aos="fade-in" data-aos-duration="3500" data-aos-delay="200">
+                <div class="item active"><img src="images/1.jpg" alt="Casa de madeira de Grápia" class="object-fit-cover h-100 w-100" /></div>
+                <div class="item"><img src="images/2.jpg" alt="Casa de madeira de Grápia" class="object-fit-cover h-100 w-100" /></div>
+                <div class="item"><img src="images/3.jpg" alt="Casa de madeira de Itaúba" class="object-fit-cover h-100 w-100" /></div>
+                <div class="item"><img src="images/4.jpg" alt="Casa de madeira de Grápia" class="object-fit-cover h-100 w-100" /></div>
+                <div class="item"><img src="images/6.jpg" alt="Casa de madeira de Itaúba" class="object-fit-cover h-100 w-100" /></div>
             </div>
             <div id="slidercaption" class="owl-carousel top-featured-home-slider-caption-owl position-absolute shadow" data-aos="fade-up">
                 <div class="item active">
                     <div class="top-featured-home-slider-caption-holder clearfix">
-                        <div class="top-featured-home-slider-caption-holder-inner clearfix bg-green-2">
+                        <div class="top-featured-home-slider-caption-holder-inner clearfix" style="background:rgba(42, 102, 218, 0.9);">
                             <div class="media">
                                 <div class="media-body pl-3 pl-sm-4">
-                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Casa 2 pisos em Tijucas</h4>
+                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Madeira de Grápia</h4>
                                     <div class="row clearfix my-3 my-sm-4">
                                         <div class="col-sm-4 clearfix">
                                             <div class="media top-featured-home-slider-amen-media">
                                                 <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">214m²</p>
+                                                    <p class="text-white font-20 pl-4">123.75m²</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-4 clearfix">
                                             <div class="media top-featured-home-slider-amen-media">
                                                 <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">4 Quartos</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">3 Banheiros</p>
+                                                    <p class="text-white font-20 pl-4">3 Quartos</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="text-white font-20 top-featured-prop-content-p-1">Pequena frase falando sobre o projeto. Madeira utilizada e acabamentos.</p>
+                                    <p class="text-white font-20 top-featured-prop-content-p-1">Projeto entregue na Praia do Ervino, com 123.75m² total, construída em madeira de Grápia.
+                                        Agradecemos ao cliente Renato Baittinger e família pela confiança!</p>
                                 </div>
                             </div>
                         </div>
@@ -367,120 +346,15 @@
                 </div>
                 <div class="item">
                     <div class="top-featured-home-slider-caption-holder clearfix">
-                        <div class="top-featured-home-slider-caption-holder-inner clearfix bg-green-2">
+                        <div class="top-featured-home-slider-caption-holder-inner clearfix" style="background:rgba(42, 102, 218, 0.9);">
                             <div class="media">
                                 <div class="media-body pl-3 pl-sm-4">
-                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Caso 2 pisos em Joinville</h4>
+                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Madeira de Grápia</h4>
                                     <div class="row clearfix my-3 my-sm-4">
                                         <div class="col-sm-4 clearfix">
                                             <div class="media top-featured-home-slider-amen-media">
                                                 <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">120m²</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">5 quartos</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">3 banheiros</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="text-white font-20 top-featured-prop-content-p-1">Pequena frase falando sobre o projeto. Madeira utilizada e acabamentos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="top-featured-home-slider-caption-holder clearfix">
-                        <div class="top-featured-home-slider-caption-holder-inner clearfix bg-green-2">
-                            <div class="media">
-                                <div class="media-body pl-3 pl-sm-4">
-                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Casa 2 pisos em Tijucas</h4>
-                                    <div class="row clearfix my-3 my-sm-4">
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">150m²</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">3 quartos</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">2 banheiros</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="text-white font-20 top-featured-prop-content-p-1">Pequena frase falando sobre o projeto. Madeira utilizada e acabamentos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="top-featured-home-slider-caption-holder clearfix">
-                        <div class="top-featured-home-slider-caption-holder-inner clearfix bg-green-2">
-                            <div class="media">
-                                <div class="media-body pl-3 pl-sm-4">
-                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Casa 2 pisos em Tijucas</h4>
-                                    <div class="row clearfix my-3 my-sm-4">
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">180m²</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">3 quartos</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">2 banheiros</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="text-white font-20 top-featured-prop-content-p-1">Pequena frase falando sobre o projeto. Madeira utilizada e acabamentos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="top-featured-home-slider-caption-holder clearfix">
-                        <div class="top-featured-home-slider-caption-holder-inner clearfix bg-green-2">
-                            <div class="media">
-                                <div class="media-body pl-3 pl-sm-4">
-                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Casa 2 pisos em Tijucas</h4>
-                                    <div class="row clearfix my-3 my-sm-4">
-                                        <div class="col-sm-4 clearfix">
-                                            <div class="media top-featured-home-slider-amen-media">
-                                                <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">60m²</p>
+                                                    <p class="text-white font-20 pl-4">59.5m²</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -491,15 +365,97 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <p class="text-white font-20 top-featured-prop-content-p-1">Projeto com 59.50m² total de casa construída em madeira de Grápia.
+                                        Agradecemos aos clientes Rejane e Patrick pela confiança!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top-featured-home-slider-caption-holder clearfix">
+                        <div class="top-featured-home-slider-caption-holder-inner clearfix" style="background:rgba(42, 102, 218, 0.9);">
+                            <div class="media">
+                                <div class="media-body pl-3 pl-sm-4">
+                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Madeira de Itaúba</h4>
+                                    <div class="row clearfix my-3 my-sm-4">
                                         <div class="col-sm-4 clearfix">
                                             <div class="media top-featured-home-slider-amen-media">
                                                 <div class="media-body">
-                                                    <p class="text-white font-20 pl-4">1 banheiro</p>
+                                                    <p class="text-white font-20 pl-4">91.2m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 clearfix">
+                                            <div class="media top-featured-home-slider-amen-media">
+                                                <div class="media-body">
+                                                    <p class="text-white font-20 pl-4">2 quartos</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="text-white font-20 top-featured-prop-content-p-1">Pequena frase falando sobre o projeto. Madeira utilizada e acabamentos.</p>
+                                    <p class="text-white font-20 top-featured-prop-content-p-1">Projeto da foto com 91.20m² total, construída em madeira de Itaúba.
+                                        Agradecemos aos clientes Andréa e Evergisto pela confiança!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top-featured-home-slider-caption-holder clearfix">
+                        <div class="top-featured-home-slider-caption-holder-inner clearfix" style="background:rgba(42, 102, 218, 0.9);">
+                            <div class="media">
+                                <div class="media-body pl-3 pl-sm-4">
+                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Madeira de Grápia</h4>
+                                    <div class="row clearfix my-3 my-sm-4">
+                                        <div class="col-sm-4 clearfix">
+                                            <div class="media top-featured-home-slider-amen-media">
+                                                <div class="media-body">
+                                                    <p class="text-white font-20 pl-4">63m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 clearfix">
+                                            <div class="media top-featured-home-slider-amen-media">
+                                                <div class="media-body">
+                                                    <p class="text-white font-20 pl-4">2 quartos</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-white font-20 top-featured-prop-content-p-1">Projeto da foto com 63m² total com 2 quartos, construída em madeira de Grápia.
+                                        Agradecemos aos clientes Haroldo e Juraci pela confiança!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="top-featured-home-slider-caption-holder clearfix">
+                        <div class="top-featured-home-slider-caption-holder-inner clearfix" style="background:rgba(42, 102, 218, 0.9);">
+                            <div class="media">
+                                <div class="media-body pl-3 pl-sm-4">
+                                    <h4 class="font-30 text-white font-Brandon_reg font-weight-bold top-featured-home-slider-caption-title">Madeira de Itaúba</h4>
+                                    <div class="row clearfix my-3 my-sm-4">
+                                        <div class="col-sm-4 clearfix">
+                                            <div class="media top-featured-home-slider-amen-media">
+                                                <div class="media-body">
+                                                    <p class="text-white font-20 pl-4">66m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 clearfix">
+                                            <div class="media top-featured-home-slider-amen-media">
+                                                <div class="media-body">
+                                                    <p class="text-white font-20 pl-4">2 quartos</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-white font-20 top-featured-prop-content-p-1">Projeto da foto com 66m² de casa + 15m² de área aberta. Construída com madeira de Itaúba.
+                                        Agradecemos aos clientes Anildo e Gil pela confiança!</p>
                                 </div>
                             </div>
                         </div>
@@ -526,88 +482,106 @@
         <div class="properties-slider-1 owl-carousel">
             <div class="item properties-slider-1-item" data-aos="fade-up">
                 <div class="properties-slider-1-item-inner clearfix">
-                    <div class="properties-slider-1-img-holder clearfix">
-                        <img src="images/1.webp" alt="property" class="object-fit-cover h-100 w-100" />
-                    </div>
-                    <div class="properties-slider-1-cntnt-holder clearfix">
-                        <div class="properties-slider-1-cntnt-holder-inner clearfix">
-                            <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Tijucas - SC</p>
-                            <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">Terra Nova</h4>
-                            <p class="font-AvenirLTStd-Medium properties-slider-1-content mb-3">Madeira Imbuia</p>
-                            <a class="font-AvenirLTStd-Medium properties-slider-1-link" href="javascript:">Detalhes</a>
+                    <a href="" data-toggle="modal" data-target="#modalPlanta" data-planta="images/plantas/42m.jpeg">
+                        <div class="properties-slider-1-img-holder clearfix">
+                            <img src="images/plantas/42m.jpeg" alt="property" class="object-fit-cover h-100 w-100" />
                         </div>
-                    </div>
+                        <div class="properties-slider-1-cntnt-holder clearfix">
+                            <div class="properties-slider-1-cntnt-holder-inner clearfix">
+                                <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Planta baixa com 2 dormitórios</p>
+                                <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">42m²</h4>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="item properties-slider-1-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="item properties-slider-1-item" data-aos="fade-up">
                 <div class="properties-slider-1-item-inner clearfix">
-                    <div class="properties-slider-1-img-holder clearfix">
-                        <img src="images/2.webp" alt="property" class="object-fit-cover h-100 w-100" />
-                    </div>
-                    <div class="properties-slider-1-cntnt-holder clearfix">
-                        <div class="properties-slider-1-cntnt-holder-inner clearfix">
-                            <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Joinville - SC</p>
-                            <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">Atiradores</h4>
-                            <p class="font-AvenirLTStd-Medium properties-slider-1-content mb-3">Madeira Grapia</p>
+                    <a href="" data-toggle="modal" data-target="#modalPlanta" data-planta="images/plantas/48m.jpeg">
+                        <div class="properties-slider-1-img-holder clearfix">
+                            <img src="images/plantas/48m.jpeg" alt="property" class="object-fit-cover h-100 w-100" />
                         </div>
-                    </div>
+                        <div class="properties-slider-1-cntnt-holder clearfix">
+                            <div class="properties-slider-1-cntnt-holder-inner clearfix">
+                                <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Planta baixa com 2 dormitórios</p>
+                                <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">48m²</h4>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="item properties-slider-1-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="item properties-slider-1-item" data-aos="fade-up">
                 <div class="properties-slider-1-item-inner clearfix">
-                    <div class="properties-slider-1-img-holder clearfix">
-                        <img src="images/3.webp" alt="property" class="object-fit-cover h-100 w-100" />
-                    </div>
-                    <div class="properties-slider-1-cntnt-holder clearfix">
-                        <div class="properties-slider-1-cntnt-holder-inner clearfix">
-                            <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Blumenau - SC</p>
-                            <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">Bairro Rural</h4>
-                            <p class="font-AvenirLTStd-Medium properties-slider-1-content mb-3">Madeira Peroba</p>
+                    <a href="" data-toggle="modal" data-target="#modalPlanta" data-planta="images/plantas/57m3d.jpeg">
+                        <div class="properties-slider-1-img-holder clearfix">
+                            <img src="images/plantas/42m.jpeg" alt="property" class="object-fit-cover h-100 w-100" />
                         </div>
-                    </div>
+                        <div class="properties-slider-1-cntnt-holder clearfix">
+                            <div class="properties-slider-1-cntnt-holder-inner clearfix">
+                                <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Planta baixa com 3 dormitórios</p>
+                                <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">57m²</h4>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="item properties-slider-1-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="item properties-slider-1-item" data-aos="fade-up">
                 <div class="properties-slider-1-item-inner clearfix">
-                    <div class="properties-slider-1-img-holder clearfix">
-                        <img src="images/4.webp" alt="property" class="object-fit-cover h-100 w-100" />
-                    </div>
-                    <div class="properties-slider-1-cntnt-holder clearfix">
-                        <div class="properties-slider-1-cntnt-holder-inner clearfix">
-                            <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Coqueiros - SC</p>
-                            <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">Bairro Universitário</h4>
-                            <p class="font-AvenirLTStd-Medium properties-slider-1-content mb-3">Madeira Pinheiro</p>
+                    <a href="" data-toggle="modal" data-target="#modalPlanta" data-planta="images/plantas/81m.jpeg">
+                        <div class="properties-slider-1-img-holder clearfix">
+                            <img src="images/plantas/81m.jpeg" alt="property" class="object-fit-cover h-100 w-100" />
                         </div>
-                    </div>
+                        <div class="properties-slider-1-cntnt-holder clearfix">
+                            <div class="properties-slider-1-cntnt-holder-inner clearfix">
+                                <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Planta baixa com 2 dormitórios (suíte)</p>
+                                <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">81m² c/ garagem</h4>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="item properties-slider-1-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="item properties-slider-1-item" data-aos="fade-up">
                 <div class="properties-slider-1-item-inner clearfix">
-                    <div class="properties-slider-1-img-holder clearfix">
-                        <img src="images/5.webp" alt="property" class="object-fit-cover h-100 w-100" />
-                    </div>
-                    <div class="properties-slider-1-cntnt-holder clearfix">
-                        <div class="properties-slider-1-cntnt-holder-inner clearfix">
-                            <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Morro Grande - SC</p>
-                            <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">Bairro Rural</h4>
-                            <p class="font-AvenirLTStd-Medium properties-slider-1-content mb-3">Madeira Imbuia</p>
+                    <a href="" data-toggle="modal" data-target="#modalPlanta" data-planta="images/plantas/95m.jpeg">
+                        <div class="properties-slider-1-img-holder clearfix">
+                            <img src="images/plantas/95m.jpeg" alt="property" class="object-fit-cover h-100 w-100" />
                         </div>
-                    </div>
+                        <div class="properties-slider-1-cntnt-holder clearfix">
+                            <div class="properties-slider-1-cntnt-holder-inner clearfix">
+                                <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Planta baixa com 3 dormitórios</p>
+                                <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">95m² c/ garagem</h4>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="item properties-slider-1-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="item properties-slider-1-item" data-aos="fade-up">
                 <div class="properties-slider-1-item-inner clearfix">
-                    <div class="properties-slider-1-img-holder clearfix">
-                        <img src="images/1.webp" alt="property" class="object-fit-cover h-100 w-100" />
-                    </div>
-                    <div class="properties-slider-1-cntnt-holder clearfix">
-                        <div class="properties-slider-1-cntnt-holder-inner clearfix">
-                            <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">$72,000,000</p>
-                            <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">Bairro Agro</h4>
-                            <p class="font-AvenirLTStd-Medium properties-slider-1-content mb-3">Madeira Imbuia</p>
+                    <a href="" data-toggle="modal" data-target="#modalPlanta" data-planta="images/plantas/155m.jpeg">
+                        <div class="properties-slider-1-img-holder clearfix">
+                            <img src="images/plantas/42m.jpeg" alt="property" class="object-fit-cover h-100 w-100" />
                         </div>
-                    </div>
+                        <div class="properties-slider-1-cntnt-holder clearfix">
+                            <div class="properties-slider-1-cntnt-holder-inner clearfix">
+                                <p class="properties-slider-1-price text-black font-15 font-TitilliumWeb-Bold mb-3">Sobrado com 3 dormitórios</p>
+                                <h4 class="font-28 font-Archivo-Medium mb-3 properties-slider-1-title">155m² c/ garagem</h4>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPlanta" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img alt="" id="asset-planta" class="img-fluid">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
         </div>
     </div>

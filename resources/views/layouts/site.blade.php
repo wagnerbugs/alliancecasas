@@ -28,8 +28,9 @@
     <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
     <!-- template css -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/responsive.css') }}
-    " rel="stylesheet">
+    <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
+
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6322ed91560f0d00125e7715&product=sop' async='async'></script>
 
     @yield('metaHead')
 
@@ -77,7 +78,7 @@
                                 <li><a class="nav-section-link text-decoration-none">&nbsp;</a></li>
                                 <li><a href="{{ route('site.index') }}" class="nav-section-link active text-decoration-none">Início</a></li>
                                 <li><a href="{{ route('site.sobre') }}" class="nav-section-link text-decoration-none">Sobre nós</a></li>
-                                <li><a href="{{ route('site.obras') }}" class="nav-section-link text-decoration-none">Obras</a></li>
+                                <li><a href="{{ route('site.obras') }}" class="nav-section-link text-decoration-none">Casas & Projetos</a></li>
                                 <li><a href="{{ route('site.duvidas') }}" class="nav-section-link text-decoration-none">Dúvidas</a></li>
                                 <li><a href="{{ route('site.contato') }}" class="nav-section-link text-decoration-none">Fale conosco</a></li>
                             </ul>

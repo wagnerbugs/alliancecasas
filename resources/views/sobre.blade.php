@@ -3,31 +3,21 @@
 @section('metaHead')
 
 {{-- Generic meta tags --}}
-<title>Notícias de Tijucas e região | Jornal Razão</title>
-<meta name="description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda.">
-<meta name="keywords" content="jornal razao, vale do rio tijucas, costa esmeralda, jornal, notícia">
-
-{{-- Twitter meta tags --}}
-<meta name="twitter:card" content="summary">
-<meta name="twitter:url" content="{{ URL::current() }}">
-<meta name="twitter:title" content="Notícias de Tijucas e região | Jornal Razão" />
-<meta name="twitter:description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda.">
-<meta name="twitter:image" content="https://jornalrazao.com/images/logos/og.png">
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@jornalrazao" />
-<meta name="twitter:creator" content="@jornalrazao" />
+<title>Sobre nós | Alliance Casas Pré Fabricadas</title>
+<meta name="description" content="Alliance casas pré fabricadas">
+<meta name="keywords" content="casa de madeira, casa pré fabricada, madeira de lei">
 
 {{-- Og meta tags --}}
-<meta property="og:title" content="Jornal Razão" />
-<meta property="og:description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda." />
+<meta property="og:title" content="Sobre nós | Alliance Casas Pré Fabricadas" />
+<meta property="og:description" content="Alliance Casas Pré Fabricadas" />
 <meta property="og:type" content="website" />
-<meta property="og:image:alt" content="Jornal Razão" />
+<meta property="og:image:alt" content="Alliance" />
 <meta property="og:image:type" content="image/png" />
-<meta property="og:image" content="https://jornalrazao.com/images/logos/og.png" />
-<meta property="og:image:secure_url" content="https://jornalrazao.com/images/logos/og.png" />
+<meta property="og:image" content="https://alliancecasas.com.br" />
+<meta property="og:image:secure_url" content="https://alliancecasas.com.br" />
 
 {{-- Article meta tags --}}
-<meta property="article:publisher" content="https://www.facebook.com/jornalrazao/" />
+<meta property="article:publisher" content="https://www.facebook.com/alliancecasasprefabricadas/" />
 
 @endsection
 
@@ -43,7 +33,7 @@
 @section('content')
 
 <div class="inner-page-header clearfix position-relative">
-    <img src="images/fundo-topo.jpg" alt="classic realtors" class="object-fit-cover w-100 h-100" />
+    <img src="images/fundo-topo.jpeg" alt="classic realtors" class="object-fit-cover w-100 h-100" />
     <div class="inner-page-header-caption-holder clearfix position-absolute">
         <div class="container clearfix">
             <div class="row clearfix">
@@ -78,12 +68,11 @@
                 </div>
             </div>
             <div class="col-md-6 about-section-col about-section-col-right clearfix pl-md-4" data-aos="fade-in" data-aos-delay="200" data-aos-duration="900">
-                <h2 class="title-5 font-48 font-Poppins-Medium text-black font-weight-bold" data-aos="fade-in">Breve relato</h2>
+                {{-- <h2class="title-5font-48font-Poppins-Mediumtext-blackfont-weight-bold"data-aos="fade-in">Breverelato</h2> --}}
                 <span class="divider-green-2 mb-5 mt-3"></span>
-                <p class="font-20 font-AvenirLTStd-Roman text-black mt-3">Precisamos de uma pequena história sobre o começo da empresa. Podemos obter essa informação com o proprietário<br><br>
-                    Não prolongar muito nessa parte, porém passar a história no sentido amplo. </p>
-                <p class="font-20 font-AvenirLTStd-Roman text-black mt-3">Precisamos de uma pequena história sobre o começo da empresa. Podemos obter essa informação com o proprietário<br><br>
-                    Não prolongar muito nessa parte, porém passar a história no sentido amplo. </p>
+                <video width="100%" controls>
+                    <source src="videos/sobre.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>

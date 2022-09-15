@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contato;
 use Illuminate\Http\Request;
+use Laravel\Ui\Presets\React;
 
 class SiteController extends Controller
 {
@@ -63,6 +65,32 @@ class SiteController extends Controller
      */
     public function contato()
     {
+        return view('contato');
+    }
+
+    /**
+     * Função responsável pelo carregamento da página de contato.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contactStore(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'tel' => 'required',
+            'message' => 'required',
+        ]);
+
+        $data = $request->only('name', 'email', 'tel', 'message', 'option');
+        $data['option'] = 1;
+        $save = Contato::create($data);
+
+        if ($save) {
+            return redirect()->route('site.contato')->with('success', 'Contato recebido com sucesso.');
+        } else {
+            return redirect()->route('site.contato')->with('fail', 'Um erro impediu o cadastro.');
+        }
         return view('contato');
     }
 

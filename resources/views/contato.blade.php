@@ -3,18 +3,18 @@
 @section('metaHead')
 
 {{-- Generic meta tags --}}
-<title>Madeira de lei | Alliance Casas Pré Fabricadas</title>
-<meta name="description" content="O que é madeira de lei. Neste artigo detalhamos sobre madeira de lei, origem, tipos, cores e muitas outras informações">
-<meta name="keywords" content="madeira de lei">
+<title>Sobre nós | Alliance Casas Pré Fabricadas</title>
+<meta name="description" content="Alliance casas pré fabricadas">
+<meta name="keywords" content="casa de madeira, casa pré fabricada, madeira de lei">
 
 {{-- Og meta tags --}}
-<meta property="og:title" content="Madeira de lei | Alliance Casas Pré Fabricadas" />
-<meta property="og:description" content="O que é madeira de lei. Neste artigo detalhamos sobre madeira de lei, origem, tipos, cores e muitas outras informações" />
+<meta property="og:title" content="Sobre nós | Alliance Casas Pré Fabricadas" />
+<meta property="og:description" content="Alliance Casas Pré Fabricadas" />
 <meta property="og:type" content="website" />
-<meta property="og:image:alt" content="Madeira de lei | Alliance Casas Pré Fabricadas" />
+<meta property="og:image:alt" content="Alliance" />
 <meta property="og:image:type" content="image/png" />
-<meta property="og:image" content="https://alliancecasas.com/images/logo-1.png" />
-<meta property="og:image:secure_url" content="https://alliancecasas.com/images/logo-1.png" />
+<meta property="og:image" content="https://alliancecasas.com.br" />
+<meta property="og:image:secure_url" content="https://alliancecasas.com.br" />
 
 {{-- Article meta tags --}}
 <meta property="article:publisher" content="https://www.facebook.com/alliancecasasprefabricadas/" />
@@ -35,7 +35,7 @@
 
 @section('content')
 <div class="inner-page-header clearfix position-relative">
-    <img src="images/fundo-topo.jpg" alt="classic realtors" class="object-fit-cover w-100 h-100" />
+    <img src="images/fundo-topo.jpeg" alt="classic realtors" class="object-fit-cover w-100 h-100" />
     <div class="inner-page-header-caption-holder clearfix position-absolute">
         <div class="container clearfix">
             <div class="row clearfix">
@@ -70,7 +70,27 @@
     </div>
     <div class="container clearfix mt-4">
         <div class="contact-us-page-contact-form-content-holder mx-auto py-4">
-            <form action="#!" name="submitQueryForm" method="post" class="submit-query-form">
+            <form action="{{ route('site.contato.store') }}" method="post" class="submit-query-form">
+                @csrf
+
+                @if ($errors->any())
+                <ul>
+                    @foreach ($errors->all() as $error)
+
+                    <li>{{ $error }}</li>
+
+                    @endforeach
+                </ul>
+                @endif
+
+                @if (Session::get('fail'))
+                <p class="text-center text-danger"><strong>{{ Session::get('fail') }}</strong></p>
+                @endif
+
+                @if (Session::get('success'))
+                <p class="text-center text-success"><strong>{{ Session::get('success') }}</strong></p>
+                @endif
+
                 <div class="row clearfix">
                     <div class="col-md-12 clearfix mt-3">
                         <div class="form-group clearfix bg-dark rounded about-contact-form-group">
@@ -109,12 +129,6 @@
                     <div class="col-md-4 clearfix mt-3">
                         <div class="form-group clearfix p-0 mb-0">
                             <input type="submit" name="submit_query" class="letter-space-1 font-TitilliumWeb-SemiBold text-uppercase btn-green-1 btn bg-green-1 border border-success rounded px-5 py-3 font-20 text-white" value="Enviar contato">
-                        </div>
-                    </div>
-                    <div class="col-md-8 clearfix d-inline-flex align-items-center flex-wrap mt-3">
-                        <div class="customchecknputGroup">
-                            <input id="option1" name="option1" type="checkbox" required>
-                            <label for="option1" class="text-dark font-21">Aceito receber contato por e-mail <a href="javascript:" class="text-dark"><u>Saiba mais</u></a></label>
                         </div>
                     </div>
                 </div>
