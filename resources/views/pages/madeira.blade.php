@@ -134,9 +134,7 @@
         <div class="share-holder-1 clearfix d-flex flex-wrap align-items-center my-5" data-aos="fade-up" data-aos-delay="350">
             <p class="font-AvenirLTStd-Medium font-28 text-black text-uppercase line-height-1">compartilhe</p>
             <div class="share-holder-1-inner clearfix flex-grow-1 ml-md-5">
-                <div class="share-holder-1-icons-holder clearfix bg-white d-table ml-auto mr-0 z-index-1 position-relative">
-                    <div class="sharethis-inline-share-buttons"></div>
-                </div>
+                <div class="sharethis-inline-share-buttons"></div>
             </div>
         </div>
     </div>
