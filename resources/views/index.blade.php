@@ -66,6 +66,9 @@
                     <div class="custom-carousel-caption-1 clearfix position-relative">
                         <p class="custom-carousel-caption-subtitle text-uppercase mb-3 text-white">casas pré fabricadas</p>
                         <h3 class="custom-carousel-caption-title-1 text-white mb-4">OBRA COMPLETA, <br>DO INÍCIO AO FIM</h3>
+                        <div class="mainBannerPlayIcon">
+                            <a href="javascript:" class="home-top-video-player-btn"><span><i class="fas fa-play"></i></span></a>
+                        </div>
                     </div>
                 </div>
             </div>
