@@ -56,8 +56,10 @@
     <div class="owl-carousel owl-theme owl-carousel-home">
         <!-- owl item -->
         <div class="item top-banner-item">
-            <div class="top-video-banner-holder w-100 h-100" style="background:#000;">
-                <img src="images/fundo-topo.jpeg" alt="classic realtors" class="object-fit-cover w-100 h-100" />
+            <div class="top-video-banner-holder w-100 h-100" style="background:url(images/fundo-topo.jpeg)">
+                <video width="1280" class="top-banner-video" loop>
+                    <source src="videos/sobre.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="custom-carousel-caption-holder clearfix position-absolute w-100 h-100 d-flex flex-wrap align-items-end">
                 <div class="container clearfix">
@@ -71,7 +73,7 @@
 
         <!-- owl item -->
         <div class="item top-banner-item">
-            <div class="top-video-banner-holder w-100 h-100" style="background:url(images/Home-Page_01_01.webp)">
+            <div class="top-video-banner-holder w-100 h-100" style="background:url(images/fundo-topo.jpeg)">
                 <video width="1280" class="top-banner-video" loop>
                     <source src="videos/video-1.mp4" type="video/mp4">
                 </video>
