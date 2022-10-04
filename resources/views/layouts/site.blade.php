@@ -81,6 +81,10 @@
                                 {{-- <li><a href="route('site.obras') }}" class="nav-section-link text-decoration-none">Casas & Projetos</a></li> --}}
                                 <li><a href="{{ route('site.duvidas') }}" class="nav-section-link text-decoration-none">Dúvidas</a></li>
                                 <li><a href="{{ route('site.contato') }}" class="nav-section-link text-decoration-none">Fale conosco</a></li>
+                                @auth
+                                <li><a href="{{ route('home') }}" class="nav-section-link text-decoration-none">Painel Administrativo</a></li>
+                                <li><a href="{{ route('logout') }}" class="nav-section-link text-decoration-none">Sair</a></li>
+                                @endauth
                             </ul>
                         </div>
                     </div>
