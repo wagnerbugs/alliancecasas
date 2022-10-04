@@ -27,6 +27,7 @@ class HomeController extends Controller
         $contatos = Contato::orderBy('id', 'DESC')->get();
         return view('home', compact('contatos'));
     }
+    
 
 
 }

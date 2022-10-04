@@ -19,6 +19,7 @@
                         </div>
                         <div id="collapse-{{ $contato->id }}" class="collapse {{ $loop->first ? 'show' : '' }}" data-parent="#accordion">
                             <div class="card-body">
+                                <p>{{ \Carbon\Carbon::parse($contato->created_at)->diffForHumans() }}</p>
                                 <p><i class="fs fa-square-envelope"></i> {{ $contato->email }}</p>
                                 <p>{{ $contato->message }}</p>
                             </div>
