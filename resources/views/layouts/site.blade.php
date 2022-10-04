@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Alliance Casas Pré Fabricadas. Uma empresa focada no bem estar e qualidade de vida dos nossos clientes. Pois na Alliance o seu sonho é o nosso sonho também." />
+    <meta name="description" content="Alliance Casas Pré Fabricadas. Especialista em casa pré fabricadas com madeira de lei." />
     <meta name="keywords" content="casa pre fabricada, casa de madeira, casa no campo, chale, madeira de lei, madeira nobre, peroba, graipa, pinhos" />
 
     <!-- AGUARADANDO HOMOLOGAÇÃO -->
-    <meta name="robots" content="noindex,nofollow" />
+    <meta name="robots" content="index,follow" />
 
     <meta property="og:title" content="Alliance | Casas pré fabricadas" />
     <meta property="og:description" content="Alliance Casas Pré Fabricadas. Uma empresa focada no bem estar e qualidade de vida dos nossos clientes. Pois na Alliance o seu sonho é o nosso sonho também." />

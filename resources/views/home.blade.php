@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="mt-5"></div>
 <div class="section faq-slider-tabs-section clearfix mt-5">
     <div class="container clearfix px-md-0">
         <div class="tab-content">
