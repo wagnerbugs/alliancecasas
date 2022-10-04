@@ -6,8 +6,8 @@
     <div class="container clearfix px-md-0">
         <div class="tab-content">
             <div id="faq-tab-1" class="container tab-pane active px-md-0"><br>
-                <h3 class="text-black font-42 font-Poppins-SemiBold mb-2 text-center mt-3 mt-md-5">.</h3>
-                <p class="opacity-0-5 font-Brandon_med font-32 text-dark text-center mb-5">.</p>
+                {{-- <h3class="text-blackfont-42font-Poppins-SemiBoldmb-2text-centermt-3mt-md-5">.</h3> --}}
+                <p class="opacity-0-5 font-Brandon_med font-32 text-dark text-center mb-5">Contatos realizados pelo site</p>
 
                 <div id="accordion" class="faq-slider-tab-accordion">
                     @foreach ($contatos as $contato)
