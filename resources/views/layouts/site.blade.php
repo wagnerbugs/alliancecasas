@@ -4,16 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Alliance Casas Pré Fabricadas. Especialista em casa pré fabricadas com madeira de lei." />
-    <meta name="keywords" content="casa pre fabricada, casa de madeira, casa no campo, chale, madeira de lei, madeira nobre, peroba, graipa, pinhos" />
+    @yield('metaHead')
 
-    <!-- AGUARADANDO HOMOLOGAÇÃO -->
-    <meta name="robots" content="index,follow" />
+    {{-- Config meta tags --}}
+    <meta name="author" content="Wagner Bugs" />
+    <meta name="generator" content="VSCode, Laravel, PHP 8*" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="rating" content="general" />
 
-    <meta property="og:title" content="Alliance | Casas pré fabricadas" />
-    <meta property="og:description" content="Alliance Casas Pré Fabricadas. Uma empresa focada no bem estar e qualidade de vida dos nossos clientes. Pois na Alliance o seu sonho é o nosso sonho também." />
-    <meta property="og:image" content="images/logo-1.png" />
-    <title>Alliance | Casas pré fabricadas</title>
+    {{-- Config seo tag --}}
+    <link rel="canonical" href="{{ URL::current() }}" />
     <!-- Favicon icon -->
     <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="images/ico" />
 
@@ -32,7 +33,7 @@
 
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6322ed91560f0d00125e7715&product=sop' async='async'></script>
 
-    @yield('metaHead')
+
 
     @yield('codeHead')
 </head>

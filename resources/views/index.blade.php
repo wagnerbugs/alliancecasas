@@ -4,20 +4,33 @@
 
 {{-- Generic meta tags --}}
 <title>Alliance Casas Pré Fabricadas</title>
-<meta name="description" content="Alliance casas pré fabricadas">
+<meta name="description" content="Alliance Casas Pré Fabricadas. Especialista em casa pré fabricadas com madeira de lei.">
 <meta name="keywords" content="casa de madeira, casa pré fabricada, madeira de lei">
 
 {{-- Og meta tags --}}
 <meta property="og:title" content="Alliance Casas Pré Fabricadas" />
-<meta property="og:description" content="Alliance Casas Pré Fabricadas" />
+<meta property="og:description" content="Alliance Casas Pré Fabricadas. Especialista em casa pré fabricadas com madeira de lei." />
 <meta property="og:type" content="website" />
 <meta property="og:image:alt" content="Alliance" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image" content="https://alliancecasas.com.br" />
-<meta property="og:image:secure_url" content="https://alliancecasas.com.br" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image" content="https://alliancecasas.com.br/images/og.jpg" />
+<meta property="og:image:secure_url" content="https://alliancecasas.com.br/images/og.jpg" />
 
 {{-- Article meta tags --}}
 <meta property="article:publisher" content="https://www.facebook.com/alliancecasasprefabricadas/" />
+
+<script type="application/ld+json">
+    { "@context" : "https://schema.org",
+        "@type" : "Organization",
+        "url" : "https://alliancecasas.com.br",
+        "contactPoint" : [
+            { "@type" : "ContactPoint",
+                "telephone" : "+55-47-98820-9090",
+                "contactType" : "customer service"
+            }
+        ]
+    }
+</script>
 
 @endsection
 

@@ -4,17 +4,17 @@
 
 {{-- Generic meta tags --}}
 <title>Sobre nós | Alliance Casas Pré Fabricadas</title>
-<meta name="description" content="Alliance casas pré fabricadas">
+<meta name="description" content="Uma breve história sobre a Alliance e conheça nossa missão e valores.">
 <meta name="keywords" content="casa de madeira, casa pré fabricada, madeira de lei">
 
 {{-- Og meta tags --}}
 <meta property="og:title" content="Sobre nós | Alliance Casas Pré Fabricadas" />
-<meta property="og:description" content="Alliance Casas Pré Fabricadas" />
+<meta property="og:description" content="Uma breve história sobre a Alliance e conheça nossa missão e valores." />
 <meta property="og:type" content="website" />
 <meta property="og:image:alt" content="Alliance" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image" content="https://alliancecasas.com.br" />
-<meta property="og:image:secure_url" content="https://alliancecasas.com.br" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image" content="https://alliancecasas.com.br/images/og.jpg" />
+<meta property="og:image:secure_url" content="https://alliancecasas.com.br/images/og.jpg" />
 
 {{-- Article meta tags --}}
 <meta property="article:publisher" content="https://www.facebook.com/alliancecasasprefabricadas/" />

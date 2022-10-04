@@ -3,28 +3,18 @@
 @section('metaHead')
 
 {{-- Generic meta tags --}}
-<title>Notícias de Tijucas e região | Jornal Razão</title>
-<meta name="description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda.">
-<meta name="keywords" content="jornal razao, vale do rio tijucas, costa esmeralda, jornal, notícia">
-
-{{-- Twitter meta tags --}}
-<meta name="twitter:card" content="summary">
-<meta name="twitter:url" content="{{ URL::current() }}">
-<meta name="twitter:title" content="Notícias de Tijucas e região | Jornal Razão" />
-<meta name="twitter:description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda.">
-<meta name="twitter:image" content="https://jornalrazao.com/images/logos/og.png">
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@jornalrazao" />
-<meta name="twitter:creator" content="@jornalrazao" />
+<title>Alliance Casas Pré Fabricadas</title>
+<meta name="description" content="Alliance Casas Pré Fabricadas. Especialista em casa pré fabricadas com madeira de lei.">
+<meta name="keywords" content="casa de madeira, casa pré fabricada, madeira de lei">
 
 {{-- Og meta tags --}}
-<meta property="og:title" content="Jornal Razão" />
-<meta property="og:description" content="O Jornal Razão é o veículo de comunicação mais tradicional da região do Vale do Rio Tijucas e Costa Esmeralda." />
+<meta property="og:title" content="Alliance Casas Pré Fabricadas" />
+<meta property="og:description" content="Alliance Casas Pré Fabricadas. Especialista em casa pré fabricadas com madeira de lei." />
 <meta property="og:type" content="website" />
-<meta property="og:image:alt" content="Jornal Razão" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image" content="https://jornalrazao.com/images/logos/og.png" />
-<meta property="og:image:secure_url" content="https://jornalrazao.com/images/logos/og.png" />
+<meta property="og:image:alt" content="Alliance" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image" content="https://alliancecasas.com.br/images/og.jpg" />
+<meta property="og:image:secure_url" content="https://alliancecasas.com.br/images/og.jpg" />
 
 {{-- Article meta tags --}}
 <meta property="article:publisher" content="https://www.facebook.com/jornalrazao/" />

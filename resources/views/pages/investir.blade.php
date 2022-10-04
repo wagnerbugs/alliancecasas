@@ -12,9 +12,9 @@
 <meta property="og:description" content="Vale a pena comprar casa de madeira? Conforto, valor acessível e durabilidade: negócio perfeito para quem quer o melhor para si" />
 <meta property="og:type" content="website" />
 <meta property="og:image:alt" content="Vale a pena comprar casa de madeira? | Alliance Casas Pré Fabricadas" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image" content="https://alliancecasas.com/images/logo-1.png" />
-<meta property="og:image:secure_url" content="https://alliancecasas.com/images/logo-1.png" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image" content="https://alliancecasas.com.br/images/og.jpg" />
+<meta property="og:image:secure_url" content="https://alliancecasas.com.br/images/og.jpg" />
 
 {{-- Article meta tags --}}
 <meta property="article:publisher" content="https://www.facebook.com/alliancecasasprefabricadas/" />

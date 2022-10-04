@@ -12,9 +12,9 @@
 <meta property="og:description" content="Alliance Casas Pré Fabricadas" />
 <meta property="og:type" content="website" />
 <meta property="og:image:alt" content="Alliance" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image" content="https://alliancecasas.com.br" />
-<meta property="og:image:secure_url" content="https://alliancecasas.com.br" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image" content="https://alliancecasas.com.br/images/og.jpg" />
+<meta property="og:image:secure_url" content="https://alliancecasas.com.br/images/og.jpg" />
 
 {{-- Article meta tags --}}
 <meta property="article:publisher" content="https://www.facebook.com/alliancecasasprefabricadas/" />
