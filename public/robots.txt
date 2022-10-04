@@ -2,4 +2,3 @@ User-agent: *
 Disallow:/login
 Disallow:/home
 Disallow:/register
-Disallow:/
