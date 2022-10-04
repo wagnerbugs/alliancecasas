@@ -1,23 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- first section -->
-<div class="section faq-first-section clearfix">
-    <!-- we are here to help section -->
-    <div class="we-here-section clearfix">
-        <div class="container clearfix">
-            <div class="row clearfix" data-aos="fade-down" data-aos-delay="450" data-aos-duration="550">
-                <div class="we-here-section-col we-here-section-col-left clearfix flex-grow-0 d-inline-flex align-items-center justify-content-center bg-green-3">
-                    <img src="images/call-24.png" alt="We are here to help" class="" />
-                </div>
-                <div class="we-here-section-col we-here-section-col-right flex-grow-1 flex-basis-0 clearfix bg-black">
-                    <h3 class="text-white text-uppercase font-30 font-AvenirLTStd-Heavy mb-2">Prefere conversar conosco?!</h3>
-                    <p class="text-white font-22 opacity-0-8 font-Montserrat-Light">Nossa equipe está pronta para atendê-lo.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="section faq-slider-tabs-section clearfix">
     <div class="container clearfix px-md-0">
@@ -26,126 +9,22 @@
                 <h3 class="text-black font-42 font-Poppins-SemiBold mb-2 text-center mt-3 mt-md-5">Perguntas frequentes dos nossos clientes</h3>
                 <p class="opacity-0-5 font-Brandon_med font-32 text-dark text-center mb-5">Caso não encontre a sua dúvida, por favor entre em contato.</p>
                 <div id="accordion" class="faq-slider-tab-accordion">
+                    @foreach ($contatos as $contato)
                     <div class="card mb-4 overflow-hidden">
                         <div class="card-header p-0">
                             <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseOne">
-                                <span class="faq-card-link-content flex-grow-0">Contruir com madeira de lei ou madeira comum?</span>
+                                <span class="faq-card-link-content flex-grow-0"><i class="fa-solid fa-circle-user"></i>{{ $contato->name }} <i class="fa-solid fa-square-phone"></i> {{ $contato->tel }}</span>
                                 <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
                             </a>
                         </div>
                         <div id="collapseOne" class="collapse show" data-parent="#accordion">
                             <div class="card-body">
-                                <video width="100%" controls>
-                                    <source src="videos/madeira-lei-comum.mp4" type="video/mp4">
-                                </video>
+                                <p><i class="fa-solid fa-square-envelope"></i> {{ $contato->email }}</p>
+                                <p>{{ $contato->message }}</p>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-4 overflow-hidden">
-                        <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseTwo">
-                                <span class="faq-card-link-content flex-grow-0">Qual a durabilidade?</span>
-                                <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
-                            </a>
-                        </div>
-                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <video width="100%" controls>
-                                    <source src="videos/durabilidade.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-4 overflow-hidden">
-                        <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseThree">
-                                <span class="faq-card-link-content flex-grow-0">Custo-benefício (Madeira de lei ou alvenaria?)</span>
-                                <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
-                            </a>
-                        </div>
-                        <div id="collapseThree" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <video width="100%" controls>
-                                    <source src="videos/custo-beneficio.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-4 overflow-hidden">
-                        <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseFour">
-                                <span class="faq-card-link-content flex-grow-0">E a umidade e mofo?</span>
-                                <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
-                            </a>
-                        </div>
-                        <div id="collapseFour" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <video width="100%" controls>
-                                    <source src="videos/umidade.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-4 overflow-hidden">
-                        <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseFive">
-                                <span class="faq-card-link-content flex-grow-0">Como é viver em uma casa de madeira?</span>
-                                <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
-                            </a>
-                        </div>
-                        <div id="collapseFive" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <video width="100%" controls>
-                                    <source src="videos/viver.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-4 overflow-hidden">
-                        <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseSix">
-                                <span class="faq-card-link-content flex-grow-0">A parte elétrica e hidráulica vocês fazem?</span>
-                                <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
-                            </a>
-                        </div>
-                        <div id="collapseSix" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <video width="100%" controls>
-                                    <source src="videos/hidro-eletrico.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-4 overflow-hidden">
-                        <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseSeven">
-                                <span class="faq-card-link-content flex-grow-0">Posso usar um projeto/sonho meu?</span>
-                                <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
-                            </a>
-                        </div>
-                        <div id="collapseSeven" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <video width="100%" controls>
-                                    <source src="videos/projeto-meu.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-4 overflow-hidden">
-                        <div class="card-header p-0">
-                            <a class="card-link faq-card-link position-relative font-30 font-AvenirLTStd-Medium text-black d-table w-100 d-flex flex-wrap align-items-start" data-toggle="collapse" href="#collapseEight">
-                                <span class="faq-card-link-content flex-grow-0">Posso usar um projeto meu que já está pronto ou tenho que adaptar?</span>
-                                <img src="images/right-arrow-2.png" alt="arrow" class="faq-card-link-img mt-2" />
-                            </a>
-                        </div>
-                        <div id="collapseEight" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <video width="100%" controls>
-                                    <source src="videos/projeto-pronto.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
