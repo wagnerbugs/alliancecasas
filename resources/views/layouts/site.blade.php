@@ -49,7 +49,7 @@
 
                 <!-- logo -->
                 <div class="col-4 col-sm-4 header-logo-holder clearfix">
-                    <a href="/"><img src="images/logo-1.png" alt="Alliance | Casas pré fabricadas" width="100" /></a>
+                    <h1><a href="/"><img src="images/logo-1.png" alt="Alliance | Casas pré fabricadas" width="100" /></a></h1>
                 </div>
                 <!-- // logo // -->
 
