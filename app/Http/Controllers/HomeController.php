@@ -31,7 +31,7 @@ class HomeController extends Controller
     public function contactDestroy(Contato $contato)
     {
         $contato->delete();
-        return redirect()->route('home');
+        return redirect()->back();
     }
 
 
