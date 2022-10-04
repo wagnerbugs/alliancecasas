@@ -21,12 +21,6 @@ RewriteRule ^ index.php [L]
 
 </IfModule>
 
-# Redirect to no-www...
-<IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteCond % { HTTP_HOST } ^www.alliancecasas.com.br [NC]
-RewriteRule ^(.*)$ https://alliancecasas.com.br [L, R=301]
-</IfModule>
 
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE application/javascript
