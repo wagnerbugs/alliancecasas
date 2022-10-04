@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div style="background-color: #000; height:150px"></div>
-<div class="section faq-slider-tabs-section clearfix">
+<div class="section faq-slider-tabs-section clearfix mt-5">
     <div class="container clearfix px-md-0">
         <div class="tab-content">
             <div id="faq-tab-1" class="container tab-pane active px-md-0"><br>
@@ -29,15 +28,6 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div id="contato"></div>
-
-<!-- you still have a question section -->
-<div class="section more-contact-section clearfix pt-4 pb-5">
-    <div class="container clearfix">
-        <h3 class="text-black font-42 font-Poppins-SemiBold mb-2 text-center mt-3 mt-md-5">Suporte técnico</h3>
-        <p class="opacity-0-5 font-Brandon_med font-32 text-dark text-center mb-md-5 max-w-738 mx-auto pb-5">whatsapp (48) 98806-1915</p>
     </div>
 </div>
 @endsection

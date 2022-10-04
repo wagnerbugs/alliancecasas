@@ -42,7 +42,7 @@
     @yield('codeBody')
 
     <!-- header -->
-    <div class="header clearfix position-fixed w-100 pt-5">
+    <div class="header clearfix position-fixed w-100 pt-5 headerblack">
         <div class="container clearfix">
             <div class="row clearfix align-items-center">
 
@@ -76,11 +76,6 @@
                         <div class="nav-section-col-inner clearfix h-100">
                             <ul class="nav-section-ul list-unstyled clearfix h-100">
                                 <li><a class="nav-section-link text-decoration-none">&nbsp;</a></li>
-                                <li><a href="{{ route('site.index') }}" class="nav-section-link active text-decoration-none">Início</a></li>
-                                <li><a href="{{ route('site.sobre') }}" class="nav-section-link text-decoration-none">Sobre nós</a></li>
-                                {{-- <li><a href="route('site.obras') }}" class="nav-section-link text-decoration-none">Casas & Projetos</a></li> --}}
-                                <li><a href="{{ route('site.duvidas') }}" class="nav-section-link text-decoration-none">Dúvidas</a></li>
-                                <li><a href="{{ route('site.contato') }}" class="nav-section-link text-decoration-none">Fale conosco</a></li>
                                 @auth
                                 <li><a href="{{ route('home') }}" class="nav-section-link text-decoration-none">Painel Administrativo</a></li>
                                 <li><a href="{{ route('logout') }}" class="nav-section-link text-decoration-none">Sair</a></li>
@@ -91,21 +86,8 @@
                     <div class="col-md-6 clearfix nav-section-col nav-section-col-right">
                         <div class="nav-section-col-inner clearfix bg-green-1 p-3 p-md-5">
                             <a href="javascript:" class="text-decoration-none d-flex flex-wrap header-contact-link text-white mb-3">
-                                <span class="footer-contact-link-1-img-holder text-white clearfix mr-2">
-                                    <img src="images/footer-location.webp" alt="location" class="img-white-scale">
-                                </span>
-                                <p class="footer-contact-link-1-content header-contact-link font-AvenirLTStd-Roman font-16 text-white ">R. Pref. Helmuth Fallgatter, 160 - Joinville - SC - (47) 9 8820 9090</p>
+                                <p class="footer-contact-link-1-content header-contact-link font-AvenirLTStd-Roman font-16 text-white ">Suporte técnico (48) 9 8806 1915</p>
                             </a>
-                            <a href="javascript:" class="text-decoration-none d-flex flex-wrap header-contact-link text-white mb-3">
-                                <span class="footer-contact-link-1-img-holder text-white clearfix mr-2">
-                                    <img src="images/footer-location.webp" alt="location" class="img-white-scale">
-                                </span>
-                                <p class="footer-contact-link-1-content header-contact-link font-AvenirLTStd-Roman font-16 text-white ">R. José Fernando Andriani, 123 - Tijucas - SC - (47) 9 9838 6585</p>
-                            </a>
-                            <div class="d-flex flex-wrap clearfix footer-social-holder ml-n1 mt-5">
-                                <a href="javascript:" class="footer-social-link bg-black text-white d-inline-flex align-items-center justify-content-center rounded-circle text-decoration-none mx-1"><i class="fab fa-facebook-f"></i></a>
-                                <a href="javascript:" class="footer-social-link bg-black text-white d-inline-flex align-items-center justify-content-center rounded-circle text-decoration-none mx-1"><i class="fab fa-instagram"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
