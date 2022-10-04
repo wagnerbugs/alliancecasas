@@ -27,7 +27,12 @@ class HomeController extends Controller
         $contatos = Contato::orderBy('id', 'DESC')->get();
         return view('home', compact('contatos'));
     }
-    
+
+    public function contactDestroy(Contato $contato)
+    {
+        $contato->delete();
+        return route('home');
+    }
 
 
 }

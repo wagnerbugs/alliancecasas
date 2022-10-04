@@ -21,7 +21,12 @@
                             <div class="card-body">
                                 <p>{{ \Carbon\Carbon::parse($contato->created_at)->diffForHumans() }}</p>
                                 <p><i class="fs fa-square-envelope"></i> {{ $contato->email }}</p>
-                                <p>{{ $contato->message }}</p>
+                                <p><strong>{{ $contato->message }}</strong></p>
+                                <form action="{{ route('contact.destroy', $contato->id) }}" method="POST">
+                                    @csrf
+                                    @method('delete')
+                                    <button class="btn btn-danger" onclick="return confirm('Tem certeza que deseja excluir o contato?')"> Excluir</button>
+                                </form>
                             </div>
                         </div>
                     </div>
