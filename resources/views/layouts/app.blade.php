@@ -81,6 +81,10 @@
                                 {{-- <li><a href="route('site.obras') }}" class="nav-section-link text-decoration-none">Casas & Projetos</a></li> --}}
                                 <li><a href="{{ route('site.duvidas') }}" class="nav-section-link text-decoration-none">Dúvidas</a></li>
                                 <li><a href="{{ route('site.contato') }}" class="nav-section-link text-decoration-none">Fale conosco</a></li>
+                                @auth
+                                <li><a href="{{ route('home') }}" class="nav-section-link text-decoration-none">Painel Administrativo</a></li>
+                                <li><a href="{{ route('logout') }}" class="nav-section-link text-decoration-none">Sair</a></li>
+                                @endauth
                             </ul>
                         </div>
                     </div>
@@ -114,108 +118,6 @@
 
     <!-- footer part -->
     <div class="footer-part clearfix section position-relative">
-        <img src="images/footer-back-1.webp" alt="footer" class="w-100 footer-part-grass-img" />
-        <div class="top-footer-part clearfix bg-black">
-            <div class="container clearfix">
-                <!-- top-footer-contacts-holder -->
-                <div class="top-footer-contacts-holder clearfix mx-auto row">
-                    <div class="col-md-6 top-footer-contacts-holder-col top-footer-contacts-holder-col-left clearfix bg-green-2 py-4">
-                        <div class="row clearfix my-1 flex-nowrap">
-                            <div class="col col-md-3 col-sm-2 col-2 clearfix d-inline-flex align-items-center flex-wrap justify-content-center footer-cntct-left">
-                                <div class="top-footer-contact-icon-holder rounded-circle bg-black-gradient-1 align-items-center justify-content-center d-flex flex-wrap">
-                                    <i class="fas fa-map-marker-alt font-20 text-white"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-9 col-sm-10 col-10 clearfix d-inline-flex align-items-center flex-wrap footer-cntct-right">
-                                <div class="top-footer-contact-info-holder">
-                                    <h4 class="text-white font-18 font-Archivo-Regular font-weight-bold">Joinville - SC<br>R. Pref. Helmuth Fallgatter, 160<br>(47) 9 8820 9090</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 top-footer-contacts-holder-col top-footer-contacts-holder-col-right clearfix bg-green-1 py-4">
-                        <div class="row clearfix my-1 flex-nowrap">
-                            <div class="col col-md-3 col-sm-2 col-2 clearfix d-inline-flex align-items-center flex-wrap justify-content-center footer-cntct-left">
-                                <div class="top-footer-contact-icon-holder rounded-circle bg-black-gradient-1 align-items-center justify-content-center d-flex flex-wrap">
-                                    <i class="fas fa-map-marker-alt font-20 text-white"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-9 col-sm-10 col-10 clearfix d-inline-flex align-items-center flex-wrap footer-cntct-right">
-                                <div class="top-footer-contact-info-holder">
-                                    <h4 class="text-white font-18 font-Archivo-Regular font-weight-bold">Tijucas - SC<br>R. José Fernando Andriani, 123<br>(47) 9 9838 6585</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- top-footer-holder -->
-                <div class="footer-row-1 clearfix pb-sm-5">
-                    <div class="row clearfix">
-                        <div class="col-md-4 col-lg-6 clearfix footer-row-1-col">
-                            <a href="javascript:" class="mb-4 text-decoration-none d-table"><img src="images/logo-1.png" alt="Alliance Casas Pré Fabricadas" width="155" /></a>
-                            <p class="font-30 font-Brandon_reg font-weight-bold text-white footer-logo-sub-title">Casas pré fabricadas</p>
-                            <h4 class="font-40 font-Brandon_reg font-weight-bold mb-4 text-gradient-green-1 footer-contact-number-1">(47) 9 8820 9090</h4>
-                            <p class="font-20 opacity-0-5 font-Brandon_reg text-white">Uma casa no campo, praia ou cidade?<br>Quem sabe um sobrado?</p>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 clearfix footer-row-1-col">
-                            <p class="font-30 font-Brandon_reg font-weight-bold text-white">Links Úteis</p>
-                            <span class="divider-green-1 mt-2"></span>
-                            <ul class="list-unstyled mt-5 footer-links-ul">
-                                <li><a href="{{ route('site.index') }}" class="active text-decoration-none footer-nav-link-1">Início</a></li>
-                                <li><a href="{{ route('site.contato') }}" class="text-decoration-none footer-nav-link-1">Contato</a></li>
-                                <li><a href="{{ route('site.privacidade') }}" class="text-decoration-none footer-nav-link-1">Política de privacidade</a></li>
-                                <li><a href="{{ route('site.termos') }}" class="text-decoration-none footer-nav-link-1">Termos e condições de uso</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 clearfix footer-row-1-col">
-                            <p class="font-30 font-Brandon_reg font-weight-bold text-white">Dúvidas?!</p>
-                            <span class="divider-green-1 mt-2"></span>
-                            <ul class="list-unstyled mt-5 footer-links-ul">
-                                <li><a href="{{ route('site.madeira') }}" class="text-decoration-none footer-nav-link-1">O que é madeira de lei?</a></li>
-                                <li><a href="{{ route('site.investir') }}" class="text-decoration-none footer-nav-link-1">Vale a pena comprar casa de madeira?</a></li>
-                            </ul>
-                            <div class="d-flex flex-wrap clearfix footer-social-holder ml-n1">
-                                <a href="https://www.facebook.com/alliancecasasprefabricadas" class="footer-social-link bg-green-1 text-white d-inline-flex align-items-center justify-content-center rounded-circle text-decoration-none mx-1"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/alliancecasas" class="footer-social-link bg-green-1 text-white d-inline-flex align-items-center justify-content-center rounded-circle text-decoration-none mx-1"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.instagram.com/alliancecasastijucas" class="footer-social-link bg-green-1 text-white d-inline-flex align-items-center justify-content-center rounded-circle text-decoration-none mx-1"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="middle-footer-part clearfix py-4">
-            <div class="container clearfix">
-                <div class="footer-row-2 clearfix">
-                    <div class="row clearfix">
-                        <div class="col-sm-6 col-md-4 col-lg-6 clearfix footer-row-2-col">
-                            <a href="javascript:" class="text-decoration-none d-flex flex-wrap footer-contact-link-1">
-                                <span class="footer-contact-link-1-img-holder clearfix mr-2">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </span>
-                                <p class="footer-contact-link-1-content font-AvenirLTStd-Roman font-16">R. Pref. Helmuth Fallgatter, 160</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 clearfix footer-row-2-col">
-                            <a href="javascript:" class="text-decoration-none d-flex flex-wrap footer-contact-link-1">
-                                <span class="footer-contact-link-1-img-holder clearfix mr-2">
-                                    <i class="fas fa-phone-alt"></i>
-                                </span>
-                                <p class="footer-contact-link-1-content font-AvenirLTStd-Roman font-16">(47) 9 8820 9090</p>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 clearfix footer-row-2-col">
-                            <a href="mailto:#" class="text-decoration-none d-flex flex-wrap footer-contact-link-1">
-                                <span class="footer-contact-link-1-img-holder clearfix mr-2">
-                                    <i class="far fa-envelope"></i>
-                                </span>
-                                <p class="footer-contact-link-1-content font-AvenirLTStd-Roman font-16">contato@alliancecasas.com.br</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="last-footer-part clearfix bg-black">
             <div class="container clearfix">
                 <div class="footer-row-3 clearfix py-5">
