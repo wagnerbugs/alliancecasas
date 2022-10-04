@@ -113,7 +113,6 @@
 <div class="top-content-section section clearfix">
     <div class="container clearfix">
         <div class="title-1-holder clearfix mb-md-5 mb-3 pb-md-5">
-            <h1 style="display: none">Alli</h1>
             <h2 class="title-1 text-uppercase" data-aos="fade-in"><span class="text-black-50">Nossos </span>diferenciais</h2>
         </div>
         <div class="row clearfix top-content-row">
