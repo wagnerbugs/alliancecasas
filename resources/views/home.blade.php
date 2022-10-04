@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div style="background-color: #000; height:100px"></div>
+<div style="background-color: #000; height:150px"></div>
 <div class="section faq-slider-tabs-section clearfix">
     <div class="container clearfix px-md-0">
         <div class="tab-content">
