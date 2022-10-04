@@ -21,7 +21,7 @@
 
     # Redirect to no-www...
     RewriteCond %{HTTP_HOST} ^www.alliancecasas.com.br [NC]
-    RewriteRule ^(.*)$ http://alliancecasas.com.br/$1 [L,R=301]
+    RewriteRule ^(.*)$ https://alliancecasas.com.br/$1 [L,R=301]
 
 </IfModule>
 
