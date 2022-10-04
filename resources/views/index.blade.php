@@ -269,7 +269,7 @@
                             <a href="javascript:" class="btn btn-play-green-1 text-decoration-none rounded-circle shadow p-2 d-flex align-items-center justify-content-center testimonial-player"><i class="fas fa-play text-white font-20"></i></a>
                             <div class="clearfix mb-0 mt-auto">
                                 <p class="font-18 font-AvenirLTStd-Roman mb-4 text-white">"Fiquei surpreso com o prazo estabelecido e mais surpreso ao entregarem antes do tempo. Ficou perfeito".</p>
-                                <h4 class="creative-testimonial-1-username text-white font-20 font-Brandon_med mb-2"></h4>
+                                <h4 class="creative-testimonial-1-username text-white font-20 font-Brandon_med mb-2">.</h4>
                                 <h6 class="creative-testimonial-1-location text-white font-15 font-AvenirLTStd-Medium">Tijucas, SC</h6>
                             </div>
                         </div>
