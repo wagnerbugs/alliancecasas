@@ -19,9 +19,6 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
-    RewriteCond %{HTTP_HOST} ^www.alliancecasas.com.br [NC]
-    RewriteRule ^(.*)$ http://alliancecasas.com.br/$1 [L,R=301]
-
     RewriteCond %{HTTP_HOST} !^alliancecasas.com.br$
     RewriteRule ^(.*)$ https://alliancecasas.com.br/$1 [R=301,L]
 </IfModule>
