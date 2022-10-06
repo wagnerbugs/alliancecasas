@@ -177,8 +177,8 @@
                 <div class="row clearfix">
                     <div class="col-md-4 clearfix awards-info-holder-col text-md-right pt-3 pr-5">
                         <h4 class="title-4 text-uppercase text-white mb-5" data-aos="fade-up">Projetos</h4>
-                        <p class="font-Pacifico-Regular font-24 text-white mb-4 awards-content" data-aos="fade-up" data-aos-delay="200">Projetos realizados:<br><span class="font-Montserrat-Medium font-31">( 382 )</span></p>
-                        <p class="font-Pacifico-Regular font-24 text-white mb-4 awards-content" data-aos="fade-up" data-aos-delay="400">Em andamento:<br><span class="font-Montserrat-Medium font-31">( 17 )</span></p>
+                        <p class="font-Pacifico-Regular font-24 text-white mb-4 awards-content" data-aos="fade-up" data-aos-delay="200">Projetos realizados:<br><span class="font-Montserrat-Medium font-31">( 394 )</span></p>
+                        <p class="font-Pacifico-Regular font-24 text-white mb-4 awards-content" data-aos="fade-up" data-aos-delay="400">Em andamento:<br><span class="font-Montserrat-Medium font-31">( 24 )</span></p>
                         <span class="badge badge-pill badge-warning award-pill font-Ubuntu-M font-24 py-3 px-4" data-aos="fade-in" data-aos-delay="500">2019 - 2022</span>
                     </div>
                     <div class="col-md-8 clearfix awards-all-holder-col text-right">
@@ -258,7 +258,7 @@
             <div class="creative-testimonials-holder1 clearfix row clearix mx-0">
                 <div class="col-md-3 creative-testimonials-holder1-col clearfix px-0 order-md-last">
                     <div class="creative-testimonials-holder1-col-inner creative-testimonials-1-caption-holder-pb-extra clearfix position-relative w-100 h-100 p-4 clearfix d-flex flex-wrap flex-column">
-                        <p class="font-Brandon_bld font-24 text-black line-height-1-2" data-aos="fade-in">Já temos<br><span class="font-48 font-Brandon_reg text-green-1 font-weight-bold">382</span><br>famílias felizes.</p>
+                        <p class="font-Brandon_bld font-24 text-black line-height-1-2" data-aos="fade-in">Já temos<br><span class="font-48 font-Brandon_reg text-green-1 font-weight-bold">394</span><br>famílias felizes.</p>
                         <p class="font-18 font-Brandon_bld text-black opacity-0-6 mb-0 mt-auto" data-aos="fade-up" data-aos-delay="100">Realizando sonhos em curtíssimo tempo.</p>
                     </div>
                 </div>
